@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# LaTeX by-products of the figure sources
+*.aux
+*.log
+*.out
+*.synctex.gz

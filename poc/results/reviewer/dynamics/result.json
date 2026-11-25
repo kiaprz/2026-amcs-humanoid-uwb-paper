@@ -1,0 +1,70 @@
+{
+  "seed": 20261011,
+  "trials": [
+    {
+      "trial": 0,
+      "settled_base_height_m": 0.791439131913726,
+      "max_tag_displacement_m": 0.007143152538441964,
+      "max_segment_frame_displacement_bound_m": 0.04439855338495627,
+      "max_torso_translation_m": 0.0059399520724734275,
+      "min_base_height_m": 0.7914357532370664,
+      "max_torso_tilt_rad": 0.051256601751185876,
+      "standing_criterion_met": true
+    },
+    {
+      "trial": 1,
+      "settled_base_height_m": 0.7914391262512954,
+      "max_tag_displacement_m": 0.007143483372184015,
+      "max_segment_frame_displacement_bound_m": 0.04440015885178067,
+      "max_torso_translation_m": 0.005940247176071534,
+      "min_base_height_m": 0.7914357524096686,
+      "max_torso_tilt_rad": 0.051256601422885156,
+      "standing_criterion_met": true
+    },
+    {
+      "trial": 2,
+      "settled_base_height_m": 0.7914391633074421,
+      "max_tag_displacement_m": 0.007141325534384104,
+      "max_segment_frame_displacement_bound_m": 0.04438969855687342,
+      "max_torso_translation_m": 0.005938318294708244,
+      "min_base_height_m": 0.7914357581791719,
+      "max_torso_tilt_rad": 0.05125673079870953,
+      "standing_criterion_met": true
+    },
+    {
+      "trial": 3,
+      "settled_base_height_m": 0.7914391637899009,
+      "max_tag_displacement_m": 0.007141295291128425,
+      "max_segment_frame_displacement_bound_m": 0.044389490589451464,
+      "max_torso_translation_m": 0.005938294281514847,
+      "min_base_height_m": 0.7914357580167815,
+      "max_torso_tilt_rad": 0.05125664404419023,
+      "standing_criterion_met": true
+    },
+    {
+      "trial": 4,
+      "settled_base_height_m": 0.7914391095074831,
+      "max_tag_displacement_m": 0.00714445907955496,
+      "max_segment_frame_displacement_bound_m": 0.044404988307488194,
+      "max_torso_translation_m": 0.005941116896898115,
+      "min_base_height_m": 0.7914357499910819,
+      "max_torso_tilt_rad": 0.05125662565870301,
+      "standing_criterion_met": true
+    }
+  ],
+  "timestep_s": 0.002,
+  "settling_s": 5,
+  "observation_s": 6,
+  "arm_ramp_s": [
+    1,
+    3
+  ],
+  "joint_targets_other_than_controlled": "zero",
+  "controller": "Menagerie position actuators: kp=500, dampratio=1, original force limits; no balance feedback",
+  "contact": "added plane, friction=[0.6,0.005,0.0001]; free base, gravity, no weld",
+  "model_sha256": "3c2616550a31f33e84d3c80b8e913ac5618c8888019b0c9490dae93493e647f3",
+  "empirical_eta_tag_m": 0.00714445907955496,
+  "empirical_relative_geometry_m": 0.044404988307488194,
+  "interpretation": "finite-trajectory empirical maxima; not global uncertainty bounds; excludes joint-tracking/model/anchor errors",
+  "elapsed_s": 3.1114502500277013
+}

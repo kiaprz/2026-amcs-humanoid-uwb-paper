@@ -1,0 +1,228 @@
+{
+  "audits": {
+    "easy": {
+      "values": {
+        "reference_lower": -0.010676427272727315,
+        "margin": 0.02,
+        "exclusion_threshold": 0.009323572727272685,
+        "UB": 0.7014078301355328,
+        "exclusion_slack": -0.6920842574082601,
+        "improvement_threshold": 0.2872285704321208,
+        "LB": 0.6030397653037979
+      },
+      "decimal_roundtrip": {
+        "reference_lower": "-0.010676427272727315",
+        "margin": "0.02",
+        "exclusion_threshold": "0.0093235727272726852",
+        "UB": "0.70140783013553276",
+        "exclusion_slack": "-0.69208425740826007",
+        "improvement_threshold": "0.2872285704321208",
+        "LB": "0.60303976530379788"
+      },
+      "binary64_hex": {
+        "reference_lower": "-0x1.5dd85cfcbbf78p-7",
+        "margin": "0x1.47ae147ae147bp-6",
+        "exclusion_threshold": "0x1.3183cbf90697ep-7",
+        "UB": "0x1.671eed572e4dbp-1",
+        "exclusion_slack": "-0x1.6258de274a335p-1",
+        "improvement_threshold": "0x1.261f3f11ee60ep-2",
+        "LB": "0x1.34c1a0cc55abfp-1"
+      },
+      "exclusion_holds": false,
+      "improvement_holds": true,
+      "theorem_outcome": "guaranteed improvement",
+      "replay": {
+        "arithmetic_replay": "PASS",
+        "theorem_outcome": "guaranteed improvement",
+        "leaf_count": 1,
+        "formal_certificate": false,
+        "reason": "Supplied error budgets and SDF values not verified by replay"
+      },
+      "result_sha256": "e7ace55ce4a14c683410ed0e83c46fb05577d72ff80d9ac53ded1b1a11d75d3a",
+      "formal_certificate": false,
+      "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+    },
+    "hard": {
+      "values": {
+        "reference_lower": 0.08369200580243635,
+        "margin": 0.02,
+        "exclusion_threshold": 0.10369200580243636,
+        "UB": 0.5614532082798321,
+        "exclusion_slack": -0.45776120247739577,
+        "improvement_threshold": 0.19642930634183964,
+        "LB": 0.23148750305790594
+      },
+      "decimal_roundtrip": {
+        "reference_lower": "0.083692005802436353",
+        "margin": "0.02",
+        "exclusion_threshold": "0.10369200580243636",
+        "UB": "0.56145320827983214",
+        "exclusion_slack": "-0.45776120247739577",
+        "improvement_threshold": "0.19642930634183964",
+        "LB": "0.23148750305790594"
+      },
+      "binary64_hex": {
+        "reference_lower": "0x1.56cd6dbdbacdcp-4",
+        "margin": "0x1.47ae147ae147bp-6",
+        "exclusion_threshold": "0x1.a8b8f2dc731fbp-4",
+        "UB": "0x1.1f76cb7f97a1bp-1",
+        "exclusion_slack": "-0x1.d4bf5a48127b7p-2",
+        "improvement_threshold": "0x1.92498735b69d0p-3",
+        "LB": "0x1.da161eb887ffep-3"
+      },
+      "exclusion_holds": false,
+      "improvement_holds": true,
+      "theorem_outcome": "guaranteed improvement",
+      "replay": {
+        "arithmetic_replay": "PASS",
+        "theorem_outcome": "guaranteed improvement",
+        "leaf_count": 1,
+        "formal_certificate": false,
+        "reason": "Supplied error budgets and SDF values not verified by replay"
+      },
+      "result_sha256": "9234b63d99401c61bec604b1d71de8f521d4fb492b8046216d3e59c7c09dc661",
+      "formal_certificate": false,
+      "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+    },
+    "bnb": {
+      "values": {
+        "reference_lower": 0.08369200580243635,
+        "margin": 0.36,
+        "exclusion_threshold": 0.44369200580243634,
+        "UB": 0.44367264034043913,
+        "exclusion_slack": 1.9365461997211675e-05,
+        "improvement_threshold": 0.5364293063418396,
+        "LB": 0.23148750305790594
+      },
+      "decimal_roundtrip": {
+        "reference_lower": "0.083692005802436353",
+        "margin": "0.35999999999999999",
+        "exclusion_threshold": "0.44369200580243634",
+        "UB": "0.44367264034043913",
+        "exclusion_slack": "1.9365461997211675e-05",
+        "improvement_threshold": "0.53642930634183961",
+        "LB": "0.23148750305790594"
+      },
+      "binary64_hex": {
+        "reference_lower": "0x1.56cd6dbdbacdcp-4",
+        "margin": "0x1.70a3d70a3d70ap-2",
+        "exclusion_threshold": "0x1.c6573279ac241p-2",
+        "UB": "0x1.c6521ee191917p-2",
+        "exclusion_slack": "0x1.44e606a4a8000p-16",
+        "improvement_threshold": "0x1.12a6dcaeb5555p-1",
+        "LB": "0x1.da161eb887ffep-3"
+      },
+      "exclusion_holds": true,
+      "improvement_holds": false,
+      "theorem_outcome": "excluded improvement",
+      "replay": {
+        "arithmetic_replay": "PASS",
+        "theorem_outcome": "excluded improvement",
+        "leaf_count": 1779,
+        "formal_certificate": false,
+        "reason": "Supplied error budgets and SDF values not verified by replay"
+      },
+      "result_sha256": "9009f846c56eb354004a6c00f184b63e91c0a6daa741487fe428caa66a117366",
+      "formal_certificate": false,
+      "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+    },
+    "excluded": {
+      "values": {
+        "reference_lower": -0.010676427272727315,
+        "margin": 0.8,
+        "exclusion_threshold": 0.7893235727272727,
+        "UB": 0.7014078301355328,
+        "exclusion_slack": 0.08791574259173995,
+        "improvement_threshold": 1.0672285704321207,
+        "LB": null
+      },
+      "decimal_roundtrip": {
+        "reference_lower": "-0.010676427272727315",
+        "margin": "0.80000000000000004",
+        "exclusion_threshold": "0.78932357272727272",
+        "UB": "0.70140783013553276",
+        "exclusion_slack": "0.087915742591739954",
+        "improvement_threshold": "1.0672285704321207",
+        "LB": null
+      },
+      "binary64_hex": {
+        "reference_lower": "-0x1.5dd85cfcbbf78p-7",
+        "margin": "0x1.999999999999ap-1",
+        "exclusion_threshold": "0x1.94223825a6a9cp-1",
+        "UB": "0x1.671eed572e4dbp-1",
+        "exclusion_slack": "0x1.681a5673c2e08p-4",
+        "improvement_threshold": "0x1.1135e43f5cdfep+0",
+        "LB": null
+      },
+      "exclusion_holds": true,
+      "improvement_holds": false,
+      "theorem_outcome": "excluded improvement",
+      "replay": {
+        "arithmetic_replay": "PASS",
+        "theorem_outcome": "excluded improvement",
+        "leaf_count": 0,
+        "formal_certificate": false,
+        "reason": "Ceiling arithmetic only; supplied errors unverified"
+      },
+      "result_sha256": "214c10285b8f6dcf4435e1921bbd7c8e027bad1e5a7b8cc3fcd3d16dcd91677c",
+      "formal_certificate": false,
+      "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+    },
+    "inconclusive": {
+      "values": {
+        "reference_lower": -0.010676427272727315,
+        "margin": 0.4,
+        "exclusion_threshold": 0.3893235727272727,
+        "UB": 0.7014078301355328,
+        "exclusion_slack": -0.31208425740826007,
+        "improvement_threshold": 0.6672285704321208,
+        "LB": 0.6030397653037979
+      },
+      "decimal_roundtrip": {
+        "reference_lower": "-0.010676427272727315",
+        "margin": "0.40000000000000002",
+        "exclusion_threshold": "0.38932357272727269",
+        "UB": "0.70140783013553276",
+        "exclusion_slack": "-0.31208425740826007",
+        "improvement_threshold": "0.6672285704321208",
+        "LB": "0.60303976530379788"
+      },
+      "binary64_hex": {
+        "reference_lower": "-0x1.5dd85cfcbbf78p-7",
+        "margin": "0x1.999999999999ap-2",
+        "exclusion_threshold": "0x1.8eaad6b1b3b9ep-2",
+        "UB": "0x1.671eed572e4dbp-1",
+        "exclusion_slack": "-0x1.3f9303fca8e18p-2",
+        "improvement_threshold": "0x1.559efbb1ecf30p-1",
+        "LB": "0x1.34c1a0cc55abfp-1"
+      },
+      "exclusion_holds": false,
+      "improvement_holds": false,
+      "theorem_outcome": "inconclusive",
+      "replay": {
+        "arithmetic_replay": "PASS",
+        "theorem_outcome": "inconclusive",
+        "leaf_count": 9,
+        "formal_certificate": false,
+        "reason": "Supplied error budgets and SDF values not verified by replay"
+      },
+      "result_sha256": "b1755c2e06f0e2a5aa4a16af72e5556a57097742d91f714e9f723e4036d135ff",
+      "formal_certificate": false,
+      "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+    }
+  },
+  "source_sha256": {
+    "run.py": "57f3bbe273284df89fa989cb40e98633946b35e25b3bc64096787fb72eb43ba8",
+    "audit_decision.py": "14aa96bf3f68bdd4f4e61ec96803040393cdc61148d73226fdb2d95a4d49c557",
+    "plot_clearance.py": "1679a09cf4a39552208c4de199cad5696cc4e9bdb3cb01f6d40e24b62516d0d2",
+    "plot_bnb.py": "92556d13caa48a6cae636bedff97ad4e84685f984dfac88f463921133f105f49",
+    "g1_geometry.py": "4ae1c7e55c106a100b8f8781bd64822b5184b2f65b200b699680f3326ba81364",
+    "plot_map.py": "bf35c239869cc9d8135c7f9ba3c9b9271d3ef46e1fd423e9f0519cdaf081cf59",
+    "test_poc.py": "260f224fd5b3cfaaef3545ab8fa5763851df5bedba70552eb2b25131043cf83f",
+    "bounds.py": "8c2a0dd6447046ddbcbc44ddc80c76e9a9dfe64685bff1e2b453975cd4c05abb",
+    "check_result.py": "bb0c0580680be3d176cf859e340c496e444fc1b44a6f3886573a3d5efd393de2",
+    "paper_example.py": "d31f1f935a520d36095b05171f7ebef911b84f0ee11dadd943af0ffe3b5d1366"
+  },
+  "formal_certificate": false,
+  "rounded_threshold_rejected": "PASS"
+}

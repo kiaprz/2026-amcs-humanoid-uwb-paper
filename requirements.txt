@@ -1,0 +1,7 @@
+# The stored results were produced with Python 3.12.10 and
+# numpy 1.26.4, scipy 1.14.1, matplotlib 3.9.2, mujoco 3.2.6, pytest 8.3.3.
+mujoco==3.2.6
+numpy>=1.26.4
+scipy>=1.14.1
+matplotlib>=3.9.2
+pytest>=8.3.3

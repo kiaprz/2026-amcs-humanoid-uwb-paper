@@ -1,0 +1,42 @@
+{
+  "values": {
+    "reference_lower": 0.08369200580243635,
+    "margin": 0.36,
+    "exclusion_threshold": 0.44369200580243634,
+    "UB": 0.44367264034043913,
+    "exclusion_slack": 1.9365461997211675e-05,
+    "improvement_threshold": 0.5364293063418396,
+    "LB": 0.23148750305790594
+  },
+  "decimal_roundtrip": {
+    "reference_lower": "0.083692005802436353",
+    "margin": "0.35999999999999999",
+    "exclusion_threshold": "0.44369200580243634",
+    "UB": "0.44367264034043913",
+    "exclusion_slack": "1.9365461997211675e-05",
+    "improvement_threshold": "0.53642930634183961",
+    "LB": "0.23148750305790594"
+  },
+  "binary64_hex": {
+    "reference_lower": "0x1.56cd6dbdbacdcp-4",
+    "margin": "0x1.70a3d70a3d70ap-2",
+    "exclusion_threshold": "0x1.c6573279ac241p-2",
+    "UB": "0x1.c6521ee191917p-2",
+    "exclusion_slack": "0x1.44e606a4a8000p-16",
+    "improvement_threshold": "0x1.12a6dcaeb5555p-1",
+    "LB": "0x1.da161eb887ffep-3"
+  },
+  "exclusion_holds": true,
+  "improvement_holds": false,
+  "theorem_outcome": "excluded improvement",
+  "replay": {
+    "arithmetic_replay": "PASS",
+    "theorem_outcome": "excluded improvement",
+    "leaf_count": 1779,
+    "formal_certificate": false,
+    "reason": "Supplied error budgets and SDF values not verified by replay"
+  },
+  "result_sha256": "9009f846c56eb354004a6c00f184b63e91c0a6daa741487fe428caa66a117366",
+  "formal_certificate": false,
+  "note": "Comparisons use full stored float64 values. Digits and replay do not justify supplied error budgets."
+}

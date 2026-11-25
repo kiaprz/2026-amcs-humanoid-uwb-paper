@@ -1,0 +1,287 @@
+{
+  "purpose": "Replay of the Section 6.3 computations; differences are replay minus stored original",
+  "replay_versions": {
+    "python": "3.13.17",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "mujoco": "3.2.6",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "stored_versions": {
+    "python": "3.12.10",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "mujoco": "3.2.6"
+  },
+  "skipped_fields": "keys containing \"elapsed\" or \"seconds\" (timings) and \"source_dynamics\" (input path)",
+  "tolerance": 1e-07,
+  "chain": "uniform and local studies use the budgets of the replayed standing result",
+  "comparisons": {
+    "dynamics_static/result.json": {
+      "float_values": 518,
+      "bitwise_identical_floats": 66,
+      "max_abs_difference": 3.03368441478824e-14,
+      "max_abs_difference_at": "/trials/3/max_torso_tilt_rad",
+      "non_float_values": 45,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "dynamics_static/trace.csv": {
+      "rows": 1500,
+      "max_abs_difference": 2.3148150063434514e-14
+    },
+    "dynamics/result.json (shared fields)": {
+      "float_values": 33,
+      "bitwise_identical_floats": 1,
+      "max_abs_difference": 3.03368441478824e-14,
+      "max_abs_difference_at": "/trials/3/max_torso_tilt_rad",
+      "non_float_values": 20,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 510,
+      "only_in_stored": 0
+    },
+    "dynamics_static_dt1ms/result.json": {
+      "float_values": 518,
+      "bitwise_identical_floats": 63,
+      "max_abs_difference": 3.900352263386253e-14,
+      "max_abs_difference_at": "/trials/2/max_torso_tilt_rad",
+      "non_float_values": 45,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "dynamics_static_dt1ms/trace.csv": {
+      "rows": 3000,
+      "max_abs_difference": 3.938516179857743e-14
+    },
+    "dynamics_dt1ms/result.json (shared fields)": {
+      "float_values": 33,
+      "bitwise_identical_floats": 2,
+      "max_abs_difference": 3.900352263386253e-14,
+      "max_abs_difference_at": "/trials/2/max_torso_tilt_rad",
+      "non_float_values": 20,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 510,
+      "only_in_stored": 0
+    },
+    "diffraction_assumed_2mm.json": {
+      "float_values": 165,
+      "bitwise_identical_floats": 53,
+      "max_abs_difference": 3.6112228762874565e-09,
+      "max_abs_difference_at": "/evaluations/0/w_minus/2",
+      "non_float_values": 18,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "physical_sensitivity.json (model inputs)": {
+      "float_values": 18,
+      "bitwise_identical_floats": 15,
+      "max_abs_difference": 4.748209936344949e-09,
+      "max_abs_difference_at": "/link_caps_lower/2",
+      "non_float_values": 0,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 114
+    },
+    "static_sensitivity/diffraction_gain.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 650,
+      "max_abs_difference": 3.990414158827615e-09,
+      "max_abs_difference_at": "/evaluations/24/w_minus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/first_exclusion.json": {
+      "float_values": 89,
+      "bitwise_identical_floats": 43,
+      "max_abs_difference": 1.7134854646272402e-10,
+      "max_abs_difference_at": "/evaluations/0/c_plus/1",
+      "non_float_values": 33,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/first_gain.json": {
+      "float_values": 3364,
+      "bitwise_identical_floats": 1453,
+      "max_abs_difference": 3.923975988584516e-08,
+      "max_abs_difference_at": "/evaluations/39/w_minus/1",
+      "non_float_values": 249,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/first_middle.json": {
+      "float_values": 3364,
+      "bitwise_identical_floats": 1453,
+      "max_abs_difference": 3.923975988584516e-08,
+      "max_abs_difference_at": "/evaluations/39/w_minus/1",
+      "non_float_values": 249,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/incremental_diffraction_gain.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 644,
+      "max_abs_difference": 3.223005007324531e-08,
+      "max_abs_difference_at": "/evaluations/24/w_minus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/incremental_restricted_exclusion.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 444,
+      "max_abs_difference": 1.6914874723106266e-08,
+      "max_abs_difference_at": "/evaluations/24/w_plus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/incremental_restricted_gain.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 444,
+      "max_abs_difference": 1.6914874723106266e-08,
+      "max_abs_difference_at": "/evaluations/24/w_plus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/restricted_exclusion.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 1374,
+      "max_abs_difference": 3.382974400611971e-09,
+      "max_abs_difference_at": "/evaluations/24/c_plus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/restricted_gain.json": {
+      "float_values": 2764,
+      "bitwise_identical_floats": 1374,
+      "max_abs_difference": 3.382974400611971e-09,
+      "max_abs_difference_at": "/evaluations/24/c_plus/0",
+      "non_float_values": 224,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "static_sensitivity/summary.json": {
+      "float_values": 675,
+      "bitwise_identical_floats": 189,
+      "max_abs_difference": 3.2380654824137878e-09,
+      "max_abs_difference_at": "/runs/diffraction_gain/reference/w_plus/2",
+      "non_float_values": 84,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "local/clip_local.json": {
+      "float_values": 2759,
+      "bitwise_identical_floats": 892,
+      "max_abs_difference": 1.7055109990948836e-08,
+      "max_abs_difference_at": "/evaluations/12/w_plus/0",
+      "non_float_values": 721,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "local/clip_tracked.json": {
+      "float_values": 2759,
+      "bitwise_identical_floats": 895,
+      "max_abs_difference": 1.7055109879926533e-08,
+      "max_abs_difference_at": "/evaluations/12/w_plus/0",
+      "non_float_values": 721,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "local/diffraction_local.json": {
+      "float_values": 166,
+      "bitwise_identical_floats": 76,
+      "max_abs_difference": 3.4105054891320208e-09,
+      "max_abs_difference_at": "/evaluations/0/w_minus/2",
+      "non_float_values": 50,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "local/diffraction_tracked.json": {
+      "float_values": 166,
+      "bitwise_identical_floats": 76,
+      "max_abs_difference": 3.3097738438847557e-09,
+      "max_abs_difference_at": "/evaluations/0/w_minus/2",
+      "non_float_values": 50,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 0,
+      "only_in_stored": 0
+    },
+    "local/stress.json": {
+      "float_values": 928,
+      "bitwise_identical_floats": 352,
+      "max_abs_difference": 3.3632055473908906e-09,
+      "max_abs_difference_at": "/31/clearance_grid/0",
+      "non_float_values": 0,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 192,
+      "only_in_stored": 0
+    },
+    "local/summary.json": {
+      "float_values": 222,
+      "bitwise_identical_floats": 88,
+      "max_abs_difference": 6.437145483317863e-09,
+      "max_abs_difference_at": "/runs/clip_tracked/reference/w_minus/1",
+      "non_float_values": 72,
+      "non_float_mismatches": 0,
+      "first_mismatches": [],
+      "only_in_replay": 1,
+      "only_in_stored": 0
+    }
+  },
+  "seconds": {
+    "dynamics_static": 14.667766499995196,
+    "dynamics_static_dt1ms": 30.94091529999423,
+    "diffraction_2mm": 0.9409085000006598,
+    "static_sensitivity": 67.01127399999677,
+    "local": 323.9204261999985
+  },
+  "summary": {
+    "files_compared": 24,
+    "max_abs_difference": 3.923975988584516e-08,
+    "non_float_mismatches": 0,
+    "float_values": 32361,
+    "bitwise_identical_floats": 10647,
+    "interpretation": "outcomes, counts and selected postures are compared exactly (non-float values); floats are compared by absolute difference"
+  },
+  "elapsed_s": 437.51316690000385
+}

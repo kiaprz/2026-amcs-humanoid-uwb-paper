@@ -1,0 +1,39 @@
+{
+  "postures": 80,
+  "replicates_per_posture": 8,
+  "total": 640,
+  "index_interval_failures": 0,
+  "clearance_bracket_failures": 0,
+  "minimum_lower_upper_slack": [
+    0.018381369978218126,
+    0.017608978470414288
+  ],
+  "zero_failure_95_upper_cluster_rate": 0.036754197779982345,
+  "sampling": "uniform Q; uniform 15D ball of norm 2mm; weights uniform in declared envelopes; direction offsets in 1mm/m balls",
+  "truth_clearance": "512-interval geometric grid, empirical higher-resolution check; not an exact continuous truth oracle",
+  "failure_rate_scope": "80 independent posture clusters, each with 8 dependent-through-q realizations; upper rate refers to any failure per cluster, not 640 iid trials or worst-case Q/hardware",
+  "estimator_demonstration": [
+    {
+      "q": [
+        -0.6,
+        1.0
+      ],
+      "linear_Gaussian_CRLB_trace_m2": 0.009192136214841646,
+      "WLS_empirical_MSE_m2": 0.009265371585233996,
+      "covariance_relative_frobenius_error": 0.014052064965258461,
+      "replicates": 20000,
+      "scope": "known weights, unbiased exactly linear Gaussian observation model; not nonlinear NLOS ranging"
+    },
+    {
+      "q": [
+        -0.3,
+        1.45
+      ],
+      "linear_Gaussian_CRLB_trace_m2": 0.00467857089101403,
+      "WLS_empirical_MSE_m2": 0.004677824162678604,
+      "covariance_relative_frobenius_error": 0.008269392156425186,
+      "replicates": 20000,
+      "scope": "known weights, unbiased exactly linear Gaussian observation model; not nonlinear NLOS ranging"
+    }
+  ]
+}

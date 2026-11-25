@@ -1,0 +1,193 @@
+{
+  "certification_status": "conditional PoC; unverified float64 arithmetic",
+  "beta": 0,
+  "epsilon_g": 0.8,
+  "epsilon_o": 0.01,
+  "reference": {
+    "q": [
+      -0.7,
+      1.2
+    ],
+    "c_hat": [
+      -0.018987034714828235,
+      0.10158049251936613,
+      0.08120641666479499,
+      0.08942587824043326
+    ],
+    "c_minus": [
+      -0.1604141523039707,
+      -0.039846625069776334,
+      -0.060220700924347476,
+      -0.051219989348709194
+    ],
+    "c_plus": [
+      0.11814320787431423,
+      0.2387107351085086,
+      0.21833665925393744,
+      0.2265561208295757
+    ],
+    "w_minus": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "w_plus": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "f_minus": -1e-06,
+    "f_plus": 0.7372354793237859,
+    "phase": "reference"
+  },
+  "exclusion_threshold": 0.799999,
+  "improvement_threshold": 1.537235479323786,
+  "theorem_outcome": "excluded improvement",
+  "stop_reason": "calibration ceiling",
+  "selected": {
+    "q": [
+      -0.7,
+      1.2
+    ],
+    "c_hat": [
+      -0.018987034714828235,
+      0.10158049251936613,
+      0.08120641666479499,
+      0.08942587824043326
+    ],
+    "c_minus": [
+      -0.1604141523039707,
+      -0.039846625069776334,
+      -0.060220700924347476,
+      -0.051219989348709194
+    ],
+    "c_plus": [
+      0.11814320787431423,
+      0.2387107351085086,
+      0.21833665925393744,
+      0.2265561208295757
+    ],
+    "w_minus": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "w_plus": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "f_minus": -1e-06,
+    "f_plus": 0.7372354793237859,
+    "phase": "reference"
+  },
+  "LB": null,
+  "UB": 0.7372354793237859,
+  "guaranteed_gain_lower": null,
+  "history": [
+    {
+      "splits": 0,
+      "LB": null,
+      "UB": 0.7372354793237859,
+      "active_boxes": 0,
+      "evaluations": 1,
+      "elapsed_s": 0.09588449999864679
+    }
+  ],
+  "evaluations": [
+    {
+      "q": [
+        -0.7,
+        1.2
+      ],
+      "c_hat": [
+        -0.018987034714828235,
+        0.10158049251936613,
+        0.08120641666479499,
+        0.08942587824043326
+      ],
+      "c_minus": [
+        -0.1604141523039707,
+        -0.039846625069776334,
+        -0.060220700924347476,
+        -0.051219989348709194
+      ],
+      "c_plus": [
+        0.11814320787431423,
+        0.2387107351085086,
+        0.21833665925393744,
+        0.2265561208295757
+      ],
+      "w_minus": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "w_plus": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "f_minus": -1e-06,
+      "f_plus": 0.7372354793237859,
+      "phase": "reference"
+    }
+  ],
+  "pruned_boxes": [],
+  "remaining_boxes": [],
+  "root_upper": null,
+  "evaluation_count": 1,
+  "cache_hits": 0,
+  "split_count": 0,
+  "search_elapsed_s": 0.09588680000160821,
+  "phase_seconds": {
+    "reference": 0.09588069999881554,
+    "candidates": 0.0,
+    "branch_and_bound": 0.0
+  },
+  "budget": {
+    "N": 256,
+    "e_phi": 1e-05,
+    "e_lambda": 1e-06,
+    "relative_geometry_m": 0.13712024258914246,
+    "range_vector_m": 0.022668090892826585,
+    "direction_offset": 0.001
+  },
+  "config_file": "config.json",
+  "geometry_constants": {
+    "Lq_m_per_rad": [
+      4.010519843246287,
+      4.010519843246287,
+      3.662610708138715,
+      3.3603491652673396
+    ],
+    "joint_reach_m": {
+      "left_shoulder_pitch_joint": 0.2673099869247126,
+      "left_elbow_joint": 0.4931875642334949
+    },
+    "moving_geom_ids": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+    ],
+    "moving_bodies": [
+      "left_shoulder_pitch_link",
+      "left_shoulder_roll_link",
+      "left_shoulder_yaw_link",
+      "left_elbow_link",
+      "left_wrist_roll_link",
+      "left_wrist_pitch_link",
+      "left_wrist_yaw_link"
+    ]
+  }
+}

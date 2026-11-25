@@ -1,0 +1,6 @@
+scenario,margin,outcome,LB,UB,evaluations,splits,search_seconds,stop
+easy,0.02,guaranteed improvement,0.6030397653037979,0.7014078301355328,28,0,2.666064833989367,decision inequality
+inconclusive,0.4,inconclusive,0.6030397653037979,0.7014078301355328,44,8,5.933734791004099,split limit
+excluded,0.8,excluded improvement,,0.7014078301355328,1,0,0.061163082951679826,calibration ceiling
+hard,0.02,guaranteed improvement,0.23148750305790594,0.5614532082798321,3,0,0.1889465420972556,decision inequality
+bnb,0.36,excluded improvement,0.23148750305790594,0.44367264034043913,3559,1778,304.5970658749575,decision inequality

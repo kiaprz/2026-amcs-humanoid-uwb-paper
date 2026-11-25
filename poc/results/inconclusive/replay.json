@@ -1,0 +1,7 @@
+{
+  "arithmetic_replay": "PASS",
+  "theorem_outcome": "inconclusive",
+  "leaf_count": 9,
+  "formal_certificate": false,
+  "reason": "Supplied error budgets and SDF values not verified by replay"
+}

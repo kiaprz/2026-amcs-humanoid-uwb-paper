@@ -1,0 +1,32 @@
+{
+  "torso_intersection_lengths_m": [
+    0.0,
+    0.0,
+    0.026957140248895443,
+    0.0
+  ],
+  "link_caps_lower": [
+    1.0,
+    1.0,
+    0.5375620451158125,
+    1.0
+  ],
+  "link_caps_upper": [
+    1.0,
+    1.0,
+    0.7331862281274878,
+    1.0
+  ],
+  "frequency_GHz": [
+    6.0,
+    8.0
+  ],
+  "edge_distance_m": [
+    0.15,
+    0.6
+  ],
+  "torso_attenuation_dB_per_m": [
+    50.0,
+    100.0
+  ]
+}

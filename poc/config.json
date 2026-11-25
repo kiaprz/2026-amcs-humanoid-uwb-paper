@@ -1,0 +1,16 @@
+{
+  "joints": ["left_shoulder_pitch_joint", "left_elbow_joint"],
+  "Q_lower": [-1.2, -0.3],
+  "Q_upper": [0.8, 1.6],
+  "q0": [-0.7, 1.2],
+  "base_position_m": [0.0, 0.0, 0.793],
+  "tag_offset_m": [0.15, 0.0, 0.05],
+  "anchor_offsets_m": [[1.8, 1.2, -0.4], [1.8, -1.2, -0.4], [-1.8, 1.2, -0.4], [0.0, 0.0, 1.8]],
+  "budget": {"N": 256, "e_phi": 0.00001, "e_lambda": 0.000001, "relative_geometry_m": 0.002, "range_vector_m": 0.004, "direction_offset": 0.001},
+  "envelope": {"lower_floor": 0.0, "lower_cap": 0.9, "lower_slope": 18.0, "lower_offset": 0.01, "upper_floor": 0.2, "upper_cap": 1.0, "upper_slope": 40.0, "upper_offset": 0.0},
+  "epsilon_g": 0.02,
+  "epsilon_o": 0.01,
+  "max_splits": 128,
+  "candidate_count": 24,
+  "seed": 20261009
+}

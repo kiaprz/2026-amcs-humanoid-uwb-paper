@@ -1,0 +1,758 @@
+{
+  "seed": 20261011,
+  "trials": [
+    {
+      "phases": {
+        "reference_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 1.1169712523248003e-06,
+            "settled_reference_frame_displacement_bound_m": 5.438133508210077e-06,
+            "nominal_tag_offset_m": 0.02255060775911745,
+            "nominal_segment_frame_bound_m": 0.13671236640637774,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008050295739049917,
+            "controlled_joint_speed_rad_s": 1.7924761687001672e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 8.217963569842232e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003358429553890228,
+            "nominal_tag_offset_m": 0.022632389498707703,
+            "nominal_segment_frame_bound_m": 0.13705515657901438,
+            "within_phase_tag_drift_m": 8.329500736668873e-05,
+            "within_phase_frame_drift_bound_m": 0.0003412811743252529,
+            "controlled_joint_target_error_rad": 0.0080496192383257,
+            "controlled_joint_speed_rad_s": 1.1500959134114068e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 9.256175194390696e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003725161612171675,
+            "nominal_tag_offset_m": 0.02264249009690293,
+            "nominal_segment_frame_bound_m": 0.13709198031444447,
+            "within_phase_tag_drift_m": 9.367679085332535e-05,
+            "within_phase_frame_drift_bound_m": 0.0003779543806100001,
+            "controlled_joint_target_error_rad": 0.008053269561424381,
+            "controlled_joint_speed_rad_s": 1.7924761687001672e-05
+          },
+          "samples": 500
+        },
+        "arm_transition": {
+          "start": {
+            "settled_reference_tag_displacement_m": 8.191109307810799e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00033473520183141477,
+            "nominal_tag_offset_m": 0.022632125791321896,
+            "nominal_segment_frame_bound_m": 0.1370540439350333,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008049621642059912,
+            "controlled_joint_speed_rad_s": 1.201867099789369e-06
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006955060986489417,
+            "settled_reference_frame_displacement_bound_m": 0.04266211637114627,
+            "nominal_tag_offset_m": 0.015610121774701707,
+            "nominal_segment_frame_bound_m": 0.0938561551575415,
+            "within_phase_tag_drift_m": 0.007036166610453236,
+            "within_phase_frame_drift_bound_m": 0.042995543710002485,
+            "controlled_joint_target_error_rad": 0.0030691806939312505,
+            "controlled_joint_speed_rad_s": 0.015289728714339392
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006955060986489417,
+            "settled_reference_frame_displacement_bound_m": 0.04266211637114627,
+            "nominal_tag_offset_m": 0.022727373320082678,
+            "nominal_segment_frame_bound_m": 0.1370540439350333,
+            "within_phase_tag_drift_m": 0.007036166610453236,
+            "within_phase_frame_drift_bound_m": 0.042995543710002485,
+            "controlled_joint_target_error_rad": 0.008049621642059912,
+            "controlled_joint_speed_rad_s": 0.3359258806596541
+          },
+          "samples": 1000
+        },
+        "final_relaxation": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006960217023097414,
+            "settled_reference_frame_displacement_bound_m": 0.04269298931051188,
+            "nominal_tag_offset_m": 0.015604986793051612,
+            "nominal_segment_frame_bound_m": 0.09382516870123027,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0030953208807664168,
+            "controlled_joint_speed_rad_s": 0.014543047396938456
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006348242927687513,
+            "settled_reference_frame_displacement_bound_m": 0.04073148295281659,
+            "nominal_tag_offset_m": 0.01620755677081591,
+            "nominal_segment_frame_bound_m": 0.09579750425563335,
+            "within_phase_tag_drift_m": 0.000628263833272416,
+            "within_phase_frame_drift_bound_m": 0.0020338260255949978,
+            "controlled_joint_target_error_rad": 0.0038528495169842802,
+            "controlled_joint_speed_rad_s": 1.1941116678260898e-05
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.007143152538441964,
+            "settled_reference_frame_displacement_bound_m": 0.04408839217936256,
+            "nominal_tag_offset_m": 0.01647861836193106,
+            "nominal_segment_frame_bound_m": 0.0970584150693602,
+            "within_phase_tag_drift_m": 0.0009024701005035744,
+            "within_phase_frame_drift_bound_m": 0.003252855790958069,
+            "controlled_joint_target_error_rad": 0.0038607966529259907,
+            "controlled_joint_speed_rad_s": 0.014543047396938456
+          },
+          "samples": 1000
+        },
+        "candidate_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.00634800594036183,
+            "settled_reference_frame_displacement_bound_m": 0.04073007708290491,
+            "nominal_tag_offset_m": 0.01620779315678148,
+            "nominal_segment_frame_bound_m": 0.09579891906908598,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0038528259444060575,
+            "controlled_joint_speed_rad_s": 1.1786289106227468e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006432628470380436,
+            "settled_reference_frame_displacement_bound_m": 0.04111460795149169,
+            "nominal_tag_offset_m": 0.016123760767492147,
+            "nominal_segment_frame_bound_m": 0.09541241758578434,
+            "within_phase_tag_drift_m": 8.547893335685855e-05,
+            "within_phase_frame_drift_bound_m": 0.0003862941461347844,
+            "controlled_joint_target_error_rad": 0.003855595239566356,
+            "controlled_joint_speed_rad_s": 4.71485394897173e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.00646180284649568,
+            "settled_reference_frame_displacement_bound_m": 0.04123666133736332,
+            "nominal_tag_offset_m": 0.01621094652388113,
+            "nominal_segment_frame_bound_m": 0.09582340117231838,
+            "within_phase_tag_drift_m": 0.00011504703639464692,
+            "within_phase_frame_drift_bound_m": 0.0005082283361182996,
+            "controlled_joint_target_error_rad": 0.00385618288710865,
+            "controlled_joint_speed_rad_s": 1.1786289106227468e-05
+          },
+          "samples": 500
+        }
+      },
+      "trial": 0,
+      "settled_base_height_m": 0.791439131913726,
+      "max_tag_displacement_m": 0.007143152538441964,
+      "max_segment_frame_displacement_bound_m": 0.04439855338495627,
+      "max_torso_translation_m": 0.0059399520724734275,
+      "min_base_height_m": 0.7914357532370664,
+      "max_torso_tilt_rad": 0.051256601751185876,
+      "standing_criterion_met": true
+    },
+    {
+      "phases": {
+        "reference_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 1.11967149467584e-06,
+            "settled_reference_frame_displacement_bound_m": 5.449567069962429e-06,
+            "nominal_tag_offset_m": 0.022549594289958577,
+            "nominal_segment_frame_bound_m": 0.13671240243681781,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008050285488024,
+            "controlled_joint_speed_rad_s": 1.794102989237167e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 8.19347724556806e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003345933285173792,
+            "nominal_tag_offset_m": 0.02263113447307531,
+            "nominal_segment_frame_bound_m": 0.13705394749910035,
+            "within_phase_tag_drift_m": 8.305283460353962e-05,
+            "within_phase_frame_drift_bound_m": 0.0003400429819265742,
+            "controlled_joint_target_error_rad": 0.00804961857274289,
+            "controlled_joint_speed_rad_s": 1.1351978938939552e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 9.224050010752387e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00037095222303585175,
+            "nominal_tag_offset_m": 0.02264115981951038,
+            "nominal_segment_frame_bound_m": 0.13709045579106988,
+            "within_phase_tag_drift_m": 9.335823560126797e-05,
+            "within_phase_frame_drift_bound_m": 0.00037640187733957035,
+            "controlled_joint_target_error_rad": 0.008053269580112876,
+            "controlled_joint_speed_rad_s": 1.794102989237167e-05
+          },
+          "samples": 500
+        },
+        "arm_transition": {
+          "start": {
+            "settled_reference_tag_displacement_m": 8.166696200790622e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003334893384262932,
+            "nominal_tag_offset_m": 0.022630871496119278,
+            "nominal_segment_frame_bound_m": 0.13705283863866505,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.00804962094688233,
+            "controlled_joint_speed_rad_s": 1.1870697010636845e-06
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.00695539170358168,
+            "settled_reference_frame_displacement_bound_m": 0.04266384564499562,
+            "nominal_tag_offset_m": 0.01560874909695857,
+            "nominal_segment_frame_bound_m": 0.09385447547394382,
+            "within_phase_tag_drift_m": 0.00703625322204095,
+            "within_phase_frame_drift_bound_m": 0.04299603101940418,
+            "controlled_joint_target_error_rad": 0.003069181164634227,
+            "controlled_joint_speed_rad_s": 0.015289728805868614
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.00695539170358168,
+            "settled_reference_frame_displacement_bound_m": 0.04266384564499562,
+            "nominal_tag_offset_m": 0.02272611571375921,
+            "nominal_segment_frame_bound_m": 0.13705283863866505,
+            "within_phase_tag_drift_m": 0.00703625322204095,
+            "within_phase_frame_drift_bound_m": 0.04299603101940418,
+            "controlled_joint_target_error_rad": 0.00804962094688233,
+            "controlled_joint_speed_rad_s": 0.3359258792753672
+          },
+          "samples": 1000
+        },
+        "final_relaxation": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006960547782429502,
+            "settled_reference_frame_displacement_bound_m": 0.04269471890980005,
+            "nominal_tag_offset_m": 0.01560361395584242,
+            "nominal_segment_frame_bound_m": 0.09382348807938308,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0030953213529884005,
+            "controlled_joint_speed_rad_s": 0.014543047478170857
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006348561593660333,
+            "settled_reference_frame_displacement_bound_m": 0.040733157180736196,
+            "nominal_tag_offset_m": 0.016206215063730964,
+            "nominal_segment_frame_bound_m": 0.09579601201504369,
+            "within_phase_tag_drift_m": 0.0006282753129730373,
+            "within_phase_frame_drift_bound_m": 0.0020338784554160354,
+            "controlled_joint_target_error_rad": 0.003852849478699849,
+            "controlled_joint_speed_rad_s": 1.1941220309504472e-05
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.007143483372184015,
+            "settled_reference_frame_displacement_bound_m": 0.044090126625175384,
+            "nominal_tag_offset_m": 0.01647727476448779,
+            "nominal_segment_frame_bound_m": 0.09705691543712347,
+            "within_phase_tag_drift_m": 0.0009024854295535705,
+            "within_phase_frame_drift_bound_m": 0.0032529305003895876,
+            "controlled_joint_target_error_rad": 0.0038607967383916253,
+            "controlled_joint_speed_rad_s": 0.014543047478170857
+          },
+          "samples": 1000
+        },
+        "candidate_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006348324606704997,
+            "settled_reference_frame_displacement_bound_m": 0.04073175130404627,
+            "nominal_tag_offset_m": 0.01620645145099072,
+            "nominal_segment_frame_bound_m": 0.09579742685037955,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0038528259059192327,
+            "controlled_joint_speed_rad_s": 1.1786390318284721e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006432948389025882,
+            "settled_reference_frame_displacement_bound_m": 0.04111628870897083,
+            "nominal_tag_offset_m": 0.016122419539528643,
+            "nominal_segment_frame_bound_m": 0.09541092709583222,
+            "within_phase_tag_drift_m": 8.548013161154875e-05,
+            "within_phase_frame_drift_bound_m": 0.0003863006963679181,
+            "controlled_joint_target_error_rad": 0.003855595246527954,
+            "controlled_joint_speed_rad_s": 4.714928832906775e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.0064621233249481675,
+            "settled_reference_frame_displacement_bound_m": 0.041238344706753624,
+            "nominal_tag_offset_m": 0.01620960483412725,
+            "nominal_segment_frame_bound_m": 0.09582190938090739,
+            "within_phase_tag_drift_m": 0.00011504877657476436,
+            "within_phase_frame_drift_bound_m": 0.0005082375138498291,
+            "controlled_joint_target_error_rad": 0.0038561829065208997,
+            "controlled_joint_speed_rad_s": 1.1786390318284721e-05
+          },
+          "samples": 500
+        }
+      },
+      "trial": 1,
+      "settled_base_height_m": 0.7914391262512954,
+      "max_tag_displacement_m": 0.007143483372184015,
+      "max_segment_frame_displacement_bound_m": 0.04440015885178067,
+      "max_torso_translation_m": 0.005940247176071534,
+      "min_base_height_m": 0.7914357524096686,
+      "max_torso_tilt_rad": 0.051256601422885156,
+      "standing_criterion_met": true
+    },
+    {
+      "phases": {
+        "reference_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 1.1043021507484776e-06,
+            "settled_reference_frame_displacement_bound_m": 5.385591455762293e-06,
+            "nominal_tag_offset_m": 0.02257436890608899,
+            "nominal_segment_frame_bound_m": 0.13673169857175463,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008050349614777907,
+            "controlled_joint_speed_rad_s": 1.7865563595111853e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 8.360970689743647e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00034301420437328614,
+            "nominal_tag_offset_m": 0.0226575675023766,
+            "nominal_segment_frame_bound_m": 0.13708164567443382,
+            "within_phase_tag_drift_m": 8.471245657342617e-05,
+            "within_phase_frame_drift_bound_m": 0.00034839988191957393,
+            "controlled_joint_target_error_rad": 0.00804962101595863,
+            "controlled_joint_speed_rad_s": 1.2311872639999063e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 9.442134315049234e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003814521990532302,
+            "nominal_tag_offset_m": 0.02266809089282638,
+            "nominal_segment_frame_bound_m": 0.1371202425891422,
+            "within_phase_tag_drift_m": 9.552377029950059e-05,
+            "within_phase_frame_drift_bound_m": 0.00038683787753743064,
+            "controlled_joint_target_error_rad": 0.00805327375556486,
+            "controlled_joint_speed_rad_s": 1.7865563595111853e-05
+          },
+          "samples": 500
+        },
+        "arm_transition": {
+          "start": {
+            "settled_reference_tag_displacement_m": 8.333685370192308e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003418847110041907,
+            "nominal_tag_offset_m": 0.022657299483704405,
+            "nominal_segment_frame_bound_m": 0.13708051117335246,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008049623580962506,
+            "controlled_joint_speed_rad_s": 1.2825019159071088e-06
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006953238619041408,
+            "settled_reference_frame_displacement_bound_m": 0.04265286023531702,
+            "nominal_tag_offset_m": 0.015635477007511108,
+            "nominal_segment_frame_bound_m": 0.0938842399471129,
+            "within_phase_tag_drift_m": 0.0070357684723087455,
+            "within_phase_frame_drift_bound_m": 0.04299341309548548,
+            "controlled_joint_target_error_rad": 0.0030691783849254306,
+            "controlled_joint_speed_rad_s": 0.015289728026715925
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006953238619041408,
+            "settled_reference_frame_displacement_bound_m": 0.04265286023531702,
+            "nominal_tag_offset_m": 0.022752603700213307,
+            "nominal_segment_frame_bound_m": 0.13708051117335246,
+            "within_phase_tag_drift_m": 0.0070357684723087455,
+            "within_phase_frame_drift_bound_m": 0.04299341309548548,
+            "controlled_joint_target_error_rad": 0.008049623580962506,
+            "controlled_joint_speed_rad_s": 0.3359258874648677
+          },
+          "samples": 1000
+        },
+        "final_relaxation": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006958394375183252,
+            "settled_reference_frame_displacement_bound_m": 0.04268373132651383,
+            "nominal_tag_offset_m": 0.015630342117342093,
+            "nominal_segment_frame_bound_m": 0.09385325520438828,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0030953185610720357,
+            "controlled_joint_speed_rad_s": 0.014543046774403753
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006346479901639127,
+            "settled_reference_frame_displacement_bound_m": 0.040722486236979945,
+            "nominal_tag_offset_m": 0.016232955318698557,
+            "nominal_segment_frame_bound_m": 0.09582529477774439,
+            "within_phase_tag_drift_m": 0.0006282076496964815,
+            "within_phase_frame_drift_bound_m": 0.0020335729445206253,
+            "controlled_joint_target_error_rad": 0.003852849700650973,
+            "controlled_joint_speed_rad_s": 1.1940461165039813e-05
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.007141325534384104,
+            "settled_reference_frame_displacement_bound_m": 0.04407909043371282,
+            "nominal_tag_offset_m": 0.01650403591834935,
+            "nominal_segment_frame_bound_m": 0.09708612922600934,
+            "within_phase_tag_drift_m": 0.000902393605609623,
+            "within_phase_frame_drift_bound_m": 0.0032524920680358613,
+            "controlled_joint_target_error_rad": 0.0038607962051542266,
+            "controlled_joint_speed_rad_s": 0.014543046774403753
+          },
+          "samples": 1000
+        },
+        "candidate_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006346242918786835,
+            "settled_reference_frame_displacement_bound_m": 0.04072108042662994,
+            "nominal_tag_offset_m": 0.016233191711015574,
+            "nominal_segment_frame_bound_m": 0.09582670954421127,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0038528261293591104,
+            "controlled_joint_speed_rad_s": 1.178564591882742e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006430858817088458,
+            "settled_reference_frame_displacement_bound_m": 0.04110557819782337,
+            "nominal_tag_offset_m": 0.01614915314949354,
+            "nominal_segment_frame_bound_m": 0.09544023261846354,
+            "within_phase_tag_drift_m": 8.547261571702172e-05,
+            "within_phase_frame_drift_bound_m": 0.000386260986197098,
+            "controlled_joint_target_error_rad": 0.0038555951962515045,
+            "controlled_joint_speed_rad_s": 4.714474246527866e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006460030444649655,
+            "settled_reference_frame_displacement_bound_m": 0.04122761922294869,
+            "nominal_tag_offset_m": 0.016236345057934618,
+            "nominal_segment_frame_bound_m": 0.09585119174095476,
+            "within_phase_tag_drift_m": 0.00011503808027918447,
+            "within_phase_frame_drift_bound_m": 0.0005081827506225722,
+            "controlled_joint_target_error_rad": 0.003856182785373863,
+            "controlled_joint_speed_rad_s": 1.178564591882742e-05
+          },
+          "samples": 500
+        }
+      },
+      "trial": 2,
+      "settled_base_height_m": 0.7914391633074421,
+      "max_tag_displacement_m": 0.007141325534384104,
+      "max_segment_frame_displacement_bound_m": 0.04438969855687342,
+      "max_torso_translation_m": 0.005938318294708244,
+      "min_base_height_m": 0.7914357581791719,
+      "max_torso_tilt_rad": 0.05125673079870953,
+      "standing_criterion_met": true
+    },
+    {
+      "phases": {
+        "reference_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 1.1023919779115695e-06,
+            "settled_reference_frame_displacement_bound_m": 5.376728156257925e-06,
+            "nominal_tag_offset_m": 0.022559247850288067,
+            "nominal_segment_frame_bound_m": 0.13671505601214562,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008050352598810151,
+            "controlled_joint_speed_rad_s": 1.7841331190426135e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 8.35744536809417e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00034293092018627096,
+            "nominal_tag_offset_m": 0.022642406000907327,
+            "nominal_segment_frame_bound_m": 0.13706490869441548,
+            "within_phase_tag_drift_m": 8.467529718997631e-05,
+            "within_phase_frame_drift_bound_m": 0.00034830773412089457,
+            "controlled_joint_target_error_rad": 0.008049622492626085,
+            "controlled_joint_speed_rad_s": 1.2334166333487559e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 9.439291732126597e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003814044951043916,
+            "nominal_tag_offset_m": 0.022652935669001315,
+            "nominal_segment_frame_bound_m": 0.13710354114350445,
+            "within_phase_tag_drift_m": 9.549343957168735e-05,
+            "within_phase_frame_drift_bound_m": 0.00038678130996627346,
+            "controlled_joint_target_error_rad": 0.00805327095339603,
+            "controlled_joint_speed_rad_s": 1.7841331190426135e-05
+          },
+          "samples": 500
+        },
+        "arm_transition": {
+          "start": {
+            "settled_reference_tag_displacement_m": 8.33017318301293e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00034180178622970447,
+            "nominal_tag_offset_m": 0.022642138124096493,
+            "nominal_segment_frame_bound_m": 0.13706377456070515,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008049625061923193,
+            "controlled_joint_speed_rad_s": 1.2846485754787956e-06
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.00695320543836029,
+            "settled_reference_frame_displacement_bound_m": 0.042652853071964716,
+            "nominal_tag_offset_m": 0.015620545780425234,
+            "nominal_segment_frame_bound_m": 0.09386790365753366,
+            "within_phase_tag_drift_m": 0.007035701087617578,
+            "within_phase_frame_drift_bound_m": 0.042993323536281526,
+            "controlled_joint_target_error_rad": 0.003069178127515948,
+            "controlled_joint_speed_rad_s": 0.015289728153431912
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.00695320543836029,
+            "settled_reference_frame_displacement_bound_m": 0.042652853071964716,
+            "nominal_tag_offset_m": 0.02273749447303136,
+            "nominal_segment_frame_bound_m": 0.13706377456070515,
+            "within_phase_tag_drift_m": 0.007035701087617578,
+            "within_phase_frame_drift_bound_m": 0.042993323536281526,
+            "controlled_joint_target_error_rad": 0.008049625061923193,
+            "controlled_joint_speed_rad_s": 0.33592588821314506
+          },
+          "samples": 1000
+        },
+        "final_relaxation": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006958361225780352,
+            "settled_reference_frame_displacement_bound_m": 0.042683724445513424,
+            "nominal_tag_offset_m": 0.015615411071955626,
+            "nominal_segment_frame_bound_m": 0.09383691910574064,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.00309531830522769,
+            "controlled_joint_speed_rad_s": 0.0145430468959751
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006346453134180737,
+            "settled_reference_frame_displacement_bound_m": 0.04072250168309343,
+            "nominal_tag_offset_m": 0.01621793977901883,
+            "nominal_segment_frame_bound_m": 0.0958088732486118,
+            "within_phase_tag_drift_m": 0.0006282012279743361,
+            "within_phase_frame_drift_bound_m": 0.0020335522871625052,
+            "controlled_joint_target_error_rad": 0.003852849724866547,
+            "controlled_joint_speed_rad_s": 1.1940513608735057e-05
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.007141295291128425,
+            "settled_reference_frame_displacement_bound_m": 0.044079107441173555,
+            "nominal_tag_offset_m": 0.016488999054103202,
+            "nominal_segment_frame_bound_m": 0.09706970894059411,
+            "within_phase_tag_drift_m": 0.0009023861470166513,
+            "within_phase_frame_drift_bound_m": 0.003252471974253672,
+            "controlled_joint_target_error_rad": 0.0038607961796195966,
+            "controlled_joint_speed_rad_s": 0.0145430468959751
+          },
+          "samples": 1000
+        },
+        "candidate_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006346216146454965,
+            "settled_reference_frame_displacement_bound_m": 0.04072109584451386,
+            "nominal_tag_offset_m": 0.016218176168001655,
+            "nominal_segment_frame_bound_m": 0.09581028802640605,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0038528261534678254,
+            "controlled_joint_speed_rad_s": 1.1785699347767356e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006430831716775872,
+            "settled_reference_frame_displacement_bound_m": 0.041105593739023824,
+            "nominal_tag_offset_m": 0.016134144528467707,
+            "nominal_segment_frame_bound_m": 0.09542381121794295,
+            "within_phase_tag_drift_m": 8.547228287588828e-05,
+            "within_phase_frame_drift_bound_m": 0.00038626111979200953,
+            "controlled_joint_target_error_rad": 0.00385559519926737,
+            "controlled_joint_speed_rad_s": 4.7144423739033865e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006460003039065505,
+            "settled_reference_frame_displacement_bound_m": 0.0412276339735797,
+            "nominal_tag_offset_m": 0.01622132969208751,
+            "nominal_segment_frame_bound_m": 0.09583477077693593,
+            "within_phase_tag_drift_m": 0.00011503743572896414,
+            "within_phase_frame_drift_bound_m": 0.0005081820873706919,
+            "controlled_joint_target_error_rad": 0.003856182779596651,
+            "controlled_joint_speed_rad_s": 1.1785699347767356e-05
+          },
+          "samples": 500
+        }
+      },
+      "trial": 3,
+      "settled_base_height_m": 0.7914391637899009,
+      "max_tag_displacement_m": 0.007141295291128425,
+      "max_segment_frame_displacement_bound_m": 0.044389490589451464,
+      "max_torso_translation_m": 0.005938294281514847,
+      "min_base_height_m": 0.7914357580167815,
+      "max_torso_tilt_rad": 0.05125664404419023,
+      "standing_criterion_met": true
+    },
+    {
+      "phases": {
+        "reference_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 1.1280263542111422e-06,
+            "settled_reference_frame_displacement_bound_m": 5.485082547132852e-06,
+            "nominal_tag_offset_m": 0.022550996232319973,
+            "nominal_segment_frame_bound_m": 0.1367176829869979,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008050254751031605,
+            "controlled_joint_speed_rad_s": 1.7994379213962204e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 8.122613849471953e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003309512540034838,
+            "nominal_tag_offset_m": 0.022631839502226733,
+            "nominal_segment_frame_bound_m": 0.13705560459130975,
+            "within_phase_tag_drift_m": 8.23525250389474e-05,
+            "within_phase_frame_drift_bound_m": 0.00033643642060197866,
+            "controlled_joint_target_error_rad": 0.008049616266938897,
+            "controlled_joint_speed_rad_s": 1.0910674617057026e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 9.130887867568786e-05,
+            "settled_reference_frame_displacement_bound_m": 0.0003663897109497422,
+            "nominal_tag_offset_m": 0.02264164598456392,
+            "nominal_segment_frame_bound_m": 0.13709118830683115,
+            "within_phase_tag_drift_m": 9.243492648993561e-05,
+            "within_phase_frame_drift_bound_m": 0.0003718748776710173,
+            "controlled_joint_target_error_rad": 0.008053270337318397,
+            "controlled_joint_speed_rad_s": 1.7994379213962204e-05
+          },
+          "samples": 500
+        },
+        "arm_transition": {
+          "start": {
+            "settled_reference_tag_displacement_m": 8.096044043299639e-05,
+            "settled_reference_frame_displacement_bound_m": 0.00032985820330279163,
+            "nominal_tag_offset_m": 0.022631578628521096,
+            "nominal_segment_frame_bound_m": 0.13705450672385208,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.008049618553445437,
+            "controlled_joint_speed_rad_s": 1.1432532836423955e-06
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006956367744139249,
+            "settled_reference_frame_displacement_bound_m": 0.04266853796565652,
+            "nominal_tag_offset_m": 0.01560921551816226,
+            "nominal_segment_frame_bound_m": 0.09385524754834348,
+            "within_phase_tag_drift_m": 0.007036522650406847,
+            "within_phase_frame_drift_bound_m": 0.04299710462610365,
+            "controlled_joint_target_error_rad": 0.003069182601983189,
+            "controlled_joint_speed_rad_s": 0.015289729044093413
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006956367744139249,
+            "settled_reference_frame_displacement_bound_m": 0.04266853796565652,
+            "nominal_tag_offset_m": 0.022726711083807877,
+            "nominal_segment_frame_bound_m": 0.13705450672385208,
+            "within_phase_tag_drift_m": 0.007036522650406847,
+            "within_phase_frame_drift_bound_m": 0.04299710462610365,
+            "controlled_joint_target_error_rad": 0.008049618553445437,
+            "controlled_joint_speed_rad_s": 0.3359258750476505
+          },
+          "samples": 1000
+        },
+        "final_relaxation": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006961523939136749,
+            "settled_reference_frame_displacement_bound_m": 0.042699411838054174,
+            "nominal_tag_offset_m": 0.015604080347931032,
+            "nominal_segment_frame_bound_m": 0.09382426113988573,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0030953227944189865,
+            "controlled_joint_speed_rad_s": 0.014543047687441349
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006349500888151384,
+            "settled_reference_frame_displacement_bound_m": 0.04073769909372147,
+            "nominal_tag_offset_m": 0.01620670040162175,
+            "nominal_segment_frame_bound_m": 0.09579662915514472,
+            "within_phase_tag_drift_m": 0.0006283104608232466,
+            "within_phase_frame_drift_bound_m": 0.0020340262300297027,
+            "controlled_joint_target_error_rad": 0.0038528493607479786,
+            "controlled_joint_speed_rad_s": 1.1941511157922059e-05
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.00714445907955496,
+            "settled_reference_frame_displacement_bound_m": 0.04409481649114985,
+            "nominal_tag_offset_m": 0.016477774598397738,
+            "nominal_segment_frame_bound_m": 0.09705764167666563,
+            "within_phase_tag_drift_m": 0.000902532070429477,
+            "within_phase_frame_drift_bound_m": 0.0032531310323420637,
+            "controlled_joint_target_error_rad": 0.003860796994317628,
+            "controlled_joint_speed_rad_s": 0.014543047687441349
+          },
+          "samples": 1000
+        },
+        "candidate_hold": {
+          "start": {
+            "settled_reference_tag_displacement_m": 0.006349263903431107,
+            "settled_reference_frame_displacement_bound_m": 0.04073629321645768,
+            "nominal_tag_offset_m": 0.016206936785199154,
+            "nominal_segment_frame_bound_m": 0.09579804394587221,
+            "within_phase_tag_drift_m": 0.0,
+            "within_phase_frame_drift_bound_m": 0.0,
+            "controlled_joint_target_error_rad": 0.0038528257874002603,
+            "controlled_joint_speed_rad_s": 1.1786673854688842e-05
+          },
+          "end": {
+            "settled_reference_tag_displacement_m": 0.006433891432379789,
+            "settled_reference_frame_displacement_bound_m": 0.04112084678438491,
+            "nominal_tag_offset_m": 0.016122900397164568,
+            "nominal_segment_frame_bound_m": 0.09541151024916512,
+            "within_phase_tag_drift_m": 8.548371927429368e-05,
+            "within_phase_frame_drift_bound_m": 0.00038631687677204786,
+            "controlled_joint_target_error_rad": 0.0038555952661412096,
+            "controlled_joint_speed_rad_s": 4.7151554814436606e-06
+          },
+          "maxima": {
+            "settled_reference_tag_displacement_m": 0.006463068078728562,
+            "settled_reference_frame_displacement_bound_m": 0.04124290962107657,
+            "nominal_tag_offset_m": 0.01621008992105148,
+            "nominal_segment_frame_bound_m": 0.09582252386695282,
+            "within_phase_tag_drift_m": 0.00011505402343351224,
+            "within_phase_frame_drift_bound_m": 0.0005082605673845048,
+            "controlled_joint_target_error_rad": 0.0038561829646373558,
+            "controlled_joint_speed_rad_s": 1.1786673854688842e-05
+          },
+          "samples": 500
+        }
+      },
+      "trial": 4,
+      "settled_base_height_m": 0.7914391095074831,
+      "max_tag_displacement_m": 0.00714445907955496,
+      "max_segment_frame_displacement_bound_m": 0.044404988307488194,
+      "max_torso_translation_m": 0.005941116896898115,
+      "min_base_height_m": 0.7914357499910819,
+      "max_torso_tilt_rad": 0.05125662565870301,
+      "standing_criterion_met": true
+    }
+  ],
+  "timestep_s": 0.002,
+  "settling_s": 5,
+  "observation_s": 6,
+  "arm_ramp_s": [
+    1,
+    3
+  ],
+  "joint_targets_other_than_controlled": "zero",
+  "controller": "Menagerie position actuators: kp=500, dampratio=1, original force limits; no balance feedback",
+  "contact": "added plane, friction=[0.6,0.005,0.0001]; free base, gravity, no weld",
+  "model_sha256": "3c2616550a31f33e84d3c80b8e913ac5618c8888019b0c9490dae93493e647f3",
+  "empirical_eta_tag_m": 0.00714445907955496,
+  "empirical_relative_geometry_m": 0.044404988307488194,
+  "static_windows_s": {
+    "reference_hold": [
+      0,
+      1
+    ],
+    "candidate_hold": [
+      5,
+      6
+    ]
+  },
+  "phase_time_origin": "after the initial 5s settling; final target fixed from t=3s, observation window starts at t=5s",
+  "nominal_base_position_m": [
+    0.0,
+    0.0,
+    0.793
+  ],
+  "static_nominal_tag_budget_m": 0.02266809089282638,
+  "static_nominal_frame_budget_m": 0.1371202425891422,
+  "interpretation": "finite-trajectory empirical maxima; not global uncertainty bounds; excludes joint-tracking/model/anchor errors",
+  "elapsed_s": 4.766975624952465
+}

@@ -1,0 +1,28 @@
+{
+  "product": {
+    "index_interval": [
+      "6/5",
+      "4/3"
+    ],
+    "absolute_optimum_width": "2/15",
+    "gain_interval": [
+      "-2/15",
+      "2/15"
+    ],
+    "exclusion_margin_0": false
+  },
+  "paired": {
+    "channel": "same unknown constant alpha in [9/10,1] at every posture",
+    "gain_interval": [
+      "0",
+      "0"
+    ],
+    "exclusion_margin_0": true
+  },
+  "nominal_apriori": {
+    "improvement_nominal_slack_margin_0_59": "23/300",
+    "exclusion_nominal_slack_restricted_margin_0_3": "1/15",
+    "optimality_tolerance_0_01_impossible": true
+  },
+  "scope": "analytic tetrahedral identity and proven sphere extrema; no grid maxima; nominal slacks require accounting for E-/E+ and reference errors before a finite-budget decision"
+}

@@ -1,0 +1,1211 @@
+{
+  "phases": {
+    "reference_hold": {
+      "settled_reference_tag_displacement_m": 9.442134315049234e-05,
+      "settled_reference_frame_displacement_bound_m": 0.0003814521990532302,
+      "nominal_tag_offset_m": 0.02266809089282638,
+      "nominal_segment_frame_bound_m": 0.1371202425891422,
+      "within_phase_tag_drift_m": 9.552377029950059e-05,
+      "within_phase_frame_drift_bound_m": 0.00038683787753743064,
+      "controlled_joint_target_error_rad": 0.00805327375556486,
+      "controlled_joint_speed_rad_s": 1.7994379213962204e-05
+    },
+    "arm_transition": {
+      "settled_reference_tag_displacement_m": 0.006956367744139249,
+      "settled_reference_frame_displacement_bound_m": 0.04266853796565652,
+      "nominal_tag_offset_m": 0.022752603700213307,
+      "nominal_segment_frame_bound_m": 0.13708051117335246,
+      "within_phase_tag_drift_m": 0.007036522650406847,
+      "within_phase_frame_drift_bound_m": 0.04299710462610365,
+      "controlled_joint_target_error_rad": 0.008049625061923193,
+      "controlled_joint_speed_rad_s": 0.33592588821314506
+    },
+    "final_relaxation": {
+      "settled_reference_tag_displacement_m": 0.00714445907955496,
+      "settled_reference_frame_displacement_bound_m": 0.04409481649114985,
+      "nominal_tag_offset_m": 0.01650403591834935,
+      "nominal_segment_frame_bound_m": 0.09708612922600934,
+      "within_phase_tag_drift_m": 0.000902532070429477,
+      "within_phase_frame_drift_bound_m": 0.0032531310323420637,
+      "controlled_joint_target_error_rad": 0.003860796994317628,
+      "controlled_joint_speed_rad_s": 0.014543047687441349
+    },
+    "candidate_hold": {
+      "settled_reference_tag_displacement_m": 0.006463068078728562,
+      "settled_reference_frame_displacement_bound_m": 0.04124290962107657,
+      "nominal_tag_offset_m": 0.016236345057934618,
+      "nominal_segment_frame_bound_m": 0.09585119174095476,
+      "within_phase_tag_drift_m": 0.00011505402343351224,
+      "within_phase_frame_drift_bound_m": 0.0005082605673845048,
+      "controlled_joint_target_error_rad": 0.0038561829646373558,
+      "controlled_joint_speed_rad_s": 1.1786673854688842e-05
+    }
+  },
+  "held_posture_windows_s": {
+    "reference_hold": [
+      0,
+      1
+    ],
+    "candidate_hold": [
+      5,
+      6
+    ]
+  },
+  "substituted_base_motion": {
+    "relative_geometry_m": 0.1371202425891422,
+    "range_vector_m": 0.02266809089282638
+  },
+  "runs": {
+    "first_gain": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.31326895132513677,
+      "UB": 0.7372354793237854,
+      "exclusion_threshold": 0.019999,
+      "improvement_threshold": 0.7572354793237854,
+      "split_count": 32,
+      "evaluation_count": 92,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 5.304096208070405,
+      "reference": {
+        "q": [
+          -0.7,
+          1.2
+        ],
+        "c_hat": [
+          -0.018987034725221768,
+          0.10158049234801786,
+          0.08120641668211283,
+          0.08942587824941908
+        ],
+        "c_minus": [
+          -0.16041415231436398,
+          -0.03984662524112435,
+          -0.060220700907029384,
+          -0.05121998933972312
+        ],
+        "c_plus": [
+          0.11814320786392044,
+          0.23871073493716005,
+          0.21833665927125503,
+          0.2265561208385613
+        ],
+        "w_minus": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": -1e-06,
+        "f_plus": 0.7372354793237854,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          0.8,
+          1.6
+        ],
+        "c_hat": [
+          0.2514878315369219,
+          0.2514878315369219,
+          0.07464777528391305,
+          0.17087886442445624
+        ],
+        "c_minus": [
+          0.11006071394777966,
+          0.11006071394777966,
+          -0.06677934230522917,
+          0.030232996835314024
+        ],
+        "c_plus": [
+          0.3886180741260641,
+          0.3886180741260641,
+          0.21177801787305525,
+          0.30800910701359846
+        ],
+        "w_minus": [
+          0.9,
+          0.9,
+          0.0,
+          0.3641939430356524
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.31326895132513677,
+        "f_plus": 0.7372354793237854,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            -1e-06,
+            0.7372354793237854
+          ],
+          "width": 0.7372364793237854,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.19260550174185223,
+            "clearance_discretization_and_rounding": 0.00031004962339145625,
+            "relative_geometry": 0.4928105110935214,
+            "direction": 0.05150841686502032,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.31326895132513677,
+            0.7372354793237854
+          ],
+          "width": 0.42396652799864865,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.06857260624587624,
+            "clearance_discretization_and_rounding": 0.0,
+            "relative_geometry": 0.2764198988733627,
+            "direction": 0.07897202287940973,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "first_middle": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.31326895132513677,
+      "UB": 0.7372354793237854,
+      "exclusion_threshold": 0.39999900000000005,
+      "improvement_threshold": 1.1372354793237855,
+      "split_count": 32,
+      "evaluation_count": 92,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 5.180774917011149,
+      "reference": {
+        "q": [
+          -0.7,
+          1.2
+        ],
+        "c_hat": [
+          -0.018987034725221768,
+          0.10158049234801786,
+          0.08120641668211283,
+          0.08942587824941908
+        ],
+        "c_minus": [
+          -0.16041415231436398,
+          -0.03984662524112435,
+          -0.060220700907029384,
+          -0.05121998933972312
+        ],
+        "c_plus": [
+          0.11814320786392044,
+          0.23871073493716005,
+          0.21833665927125503,
+          0.2265561208385613
+        ],
+        "w_minus": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": -1e-06,
+        "f_plus": 0.7372354793237854,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          0.8,
+          1.6
+        ],
+        "c_hat": [
+          0.2514878315369219,
+          0.2514878315369219,
+          0.07464777528391305,
+          0.17087886442445624
+        ],
+        "c_minus": [
+          0.11006071394777966,
+          0.11006071394777966,
+          -0.06677934230522917,
+          0.030232996835314024
+        ],
+        "c_plus": [
+          0.3886180741260641,
+          0.3886180741260641,
+          0.21177801787305525,
+          0.30800910701359846
+        ],
+        "w_minus": [
+          0.9,
+          0.9,
+          0.0,
+          0.3641939430356524
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.31326895132513677,
+        "f_plus": 0.7372354793237854,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            -1e-06,
+            0.7372354793237854
+          ],
+          "width": 0.7372364793237854,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.19260550174185223,
+            "clearance_discretization_and_rounding": 0.00031004962339145625,
+            "relative_geometry": 0.4928105110935214,
+            "direction": 0.05150841686502032,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.31326895132513677,
+            0.7372354793237854
+          ],
+          "width": 0.42396652799864865,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.06857260624587624,
+            "clearance_discretization_and_rounding": 0.0,
+            "relative_geometry": 0.2764198988733627,
+            "direction": 0.07897202287940973,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "first_exclusion": {
+      "theorem_outcome": "excluded improvement",
+      "LB": null,
+      "UB": 0.7372354793237854,
+      "exclusion_threshold": 0.799999,
+      "improvement_threshold": 1.5372354793237855,
+      "split_count": 0,
+      "evaluation_count": 1,
+      "stop_reason": "calibration ceiling",
+      "search_elapsed_s": 0.04914845898747444,
+      "reference": {
+        "q": [
+          -0.7,
+          1.2
+        ],
+        "c_hat": [
+          -0.018987034725221768,
+          0.10158049234801786,
+          0.08120641668211283,
+          0.08942587824941908
+        ],
+        "c_minus": [
+          -0.16041415231436398,
+          -0.03984662524112435,
+          -0.060220700907029384,
+          -0.05121998933972312
+        ],
+        "c_plus": [
+          0.11814320786392044,
+          0.23871073493716005,
+          0.21833665927125503,
+          0.2265561208385613
+        ],
+        "w_minus": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": -1e-06,
+        "f_plus": 0.7372354793237854,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.7,
+          1.2
+        ],
+        "c_hat": [
+          -0.018987034725221768,
+          0.10158049234801786,
+          0.08120641668211283,
+          0.08942587824941908
+        ],
+        "c_minus": [
+          -0.16041415231436398,
+          -0.03984662524112435,
+          -0.060220700907029384,
+          -0.05121998933972312
+        ],
+        "c_plus": [
+          0.11814320786392044,
+          0.23871073493716005,
+          0.21833665927125503,
+          0.2265561208385613
+        ],
+        "w_minus": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": -1e-06,
+        "f_plus": 0.7372354793237854,
+        "phase": "reference"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            -1e-06,
+            0.7372354793237854
+          ],
+          "width": 0.7372364793237854,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.19260550174185223,
+            "clearance_discretization_and_rounding": 0.00031004962339145625,
+            "relative_geometry": 0.4928105110935214,
+            "direction": 0.05150841686502032,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.31326895132513677,
+            0.7372354793237854
+          ],
+          "width": 0.42396652799864865,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.06857260624587624,
+            "clearance_discretization_and_rounding": 0.0,
+            "relative_geometry": 0.2764198988733627,
+            "direction": 0.07897202287940973,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "restricted_gain": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.04920997814620741,
+      "UB": 0.5987881615598413,
+      "exclusion_threshold": 0.06920997814620741,
+      "improvement_threshold": 0.5662275602570404,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.452690208912827,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.15916912258610072,
+          -0.03955544691202016,
+          -0.0698849403688279,
+          -0.0468243440592437
+        ],
+        "c_plus": [
+          0.1193882375921837,
+          0.2383537768780356,
+          0.2086724198094565,
+          0.23095176611904072
+        ],
+        "w_minus": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "w_plus": [
+          0.8469411879609186,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.04920997814620741,
+        "f_plus": 0.5462275602570403,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.15916912258610072,
+          -0.03955544691202016,
+          -0.0698849403688279,
+          -0.0468243440592437
+        ],
+        "c_plus": [
+          0.1193882375921837,
+          0.2383537768780356,
+          0.2086724198094565,
+          0.23095176611904072
+        ],
+        "w_minus": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "w_plus": [
+          0.8469411879609186,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.04920997814620741,
+        "f_plus": 0.5462275602570403,
+        "phase": "reference"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.04920997814620741,
+            0.5462275602570403
+          ],
+          "width": 0.4970175821108329,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.0744491382593894,
+            "clearance_discretization_and_rounding": 0.0015281177489986641,
+            "relative_geometry": 0.36424910639667657,
+            "direction": 0.05678921970576832,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.04920997814620741,
+            0.5987881615598413
+          ],
+          "width": 0.5495781834136338,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.13593526472391498,
+            "clearance_discretization_and_rounding": 0.009983017577613607,
+            "relative_geometry": 0.3449853420583332,
+            "direction": 0.058672559053772125,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "restricted_exclusion": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.04920997814620741,
+      "UB": 0.5987881615598413,
+      "exclusion_threshold": 0.4092099781462074,
+      "improvement_threshold": 0.9062275602570403,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.6618563340744,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.15916912258610072,
+          -0.03955544691202016,
+          -0.0698849403688279,
+          -0.0468243440592437
+        ],
+        "c_plus": [
+          0.1193882375921837,
+          0.2383537768780356,
+          0.2086724198094565,
+          0.23095176611904072
+        ],
+        "w_minus": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "w_plus": [
+          0.8469411879609186,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.04920997814620741,
+        "f_plus": 0.5462275602570403,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.15916912258610072,
+          -0.03955544691202016,
+          -0.0698849403688279,
+          -0.0468243440592437
+        ],
+        "c_plus": [
+          0.1193882375921837,
+          0.2383537768780356,
+          0.2086724198094565,
+          0.23095176611904072
+        ],
+        "w_minus": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "w_plus": [
+          0.8469411879609186,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f_minus": 0.04920997814620741,
+        "f_plus": 0.5462275602570403,
+        "phase": "reference"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.04920997814620741,
+            0.5462275602570403
+          ],
+          "width": 0.4970175821108329,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.0744491382593894,
+            "clearance_discretization_and_rounding": 0.0015281177489986641,
+            "relative_geometry": 0.36424910639667657,
+            "direction": 0.05678921970576832,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.04920997814620741,
+            0.5987881615598413
+          ],
+          "width": 0.5495781834136338,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.13593526472391498,
+            "clearance_discretization_and_rounding": 0.009983017577613607,
+            "relative_geometry": 0.3449853420583332,
+            "direction": 0.058672559053772125,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "diffraction_gain": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.024996914492495075,
+      "UB": 0.5542169646758652,
+      "exclusion_threshold": 0.022697478417771026,
+      "improvement_threshold": 0.5742169646758652,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.675096166902222,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.15916912258610072,
+          -0.03955544691202016,
+          -0.0698849403688279,
+          -0.0468243440592437
+        ],
+        "c_plus": [
+          0.1193882375921837,
+          0.2383537768780356,
+          0.2086724198094565,
+          0.23095176611904072
+        ],
+        "w_minus": [
+          0.005341984152599361,
+          0.05738902450514972,
+          0.01324557667356251,
+          0.04554389550939323
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          0.7331862248894223,
+          1.0
+        ],
+        "f_minus": 0.0026974784177710267,
+        "f_plus": 0.5542169646758652,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "c_hat": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "c_minus": [
+          -0.024692985799846467,
+          -0.02356583279437717,
+          -0.09756851418648106,
+          -0.025136499020134553
+        ],
+        "c_plus": [
+          0.25386437437843795,
+          0.2543433909956786,
+          0.18098884599180337,
+          0.25263961115814987
+        ],
+        "w_minus": [
+          0.09668558086946626,
+          0.10019052140159945,
+          0.007323045286461417,
+          0.09442199635744424
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          0.7331862248894223,
+          1.0
+        ],
+        "f_minus": 0.024996914492495075,
+        "f_plus": 0.5542169646758652,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.0026974784177710267,
+            0.5542169646758652
+          ],
+          "width": 0.5515194862580942,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.04978103967735949,
+            "clearance_discretization_and_rounding": 0.0125596064744741,
+            "relative_geometry": 0.43741661748194477,
+            "direction": 0.051760222624315844,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.024996914492495075,
+            0.5542169646758652
+          ],
+          "width": 0.5292200501833701,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.11568894764812665,
+            "clearance_discretization_and_rounding": 0.007696663234357026,
+            "relative_geometry": 0.3517027951806335,
+            "direction": 0.054129644120253013,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "incremental_restricted_gain": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.13778049182577207,
+      "UB": 0.5663791823482437,
+      "exclusion_threshold": 0.08838497365399293,
+      "improvement_threshold": 0.30803239754634515,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.547990957973525,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.06329178961803508,
+          0.056321886056045475,
+          0.025992392599237732,
+          0.04905298890882194
+        ],
+        "c_plus": [
+          0.023510904624118055,
+          0.14247644390997,
+          0.11279508684139088,
+          0.13507443315097506
+        ],
+        "w_minus": [
+          0.1,
+          0.32528754422418193,
+          0.20396957039695093,
+          0.2962119556352878
+        ],
+        "w_plus": [
+          0.36755452312059034,
+          0.96238221954985,
+          0.8139754342069544,
+          0.9253721657548754
+        ],
+        "f_minus": 0.06838497365399293,
+        "f_plus": 0.28803239754634513,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "c_hat": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "c_minus": [
+          0.07118434716821917,
+          0.07231150017368847,
+          -0.0016911812184154246,
+          0.07074083394793108
+        ],
+        "c_plus": [
+          0.15798704141037231,
+          0.158466058027613,
+          0.08511151302373773,
+          0.1567622781900842
+        ],
+        "w_minus": [
+          0.38473738867287666,
+          0.3892460006947539,
+          0.1,
+          0.38296333579172437
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          0.6755575651186887,
+          1.0
+        ],
+        "f_minus": 0.13778049182577207,
+        "f_plus": 0.5121632166471675,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.06838497365399293,
+            0.28803239754634513
+          ],
+          "width": 0.2196474238923522,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.0744491382593894,
+            "clearance_discretization_and_rounding": 0.0015281177489986641,
+            "relative_geometry": 0.12246959236953231,
+            "direction": 0.02119857551443186,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.13778049182577207,
+            0.5121632166471675
+          ],
+          "width": 0.3743827248213954,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.13593526472391498,
+            "clearance_discretization_and_rounding": 0.009983017577613607,
+            "relative_geometry": 0.20247418129985428,
+            "direction": 0.02598826122001252,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "incremental_restricted_exclusion": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.13778049182577207,
+      "UB": 0.5663791823482437,
+      "exclusion_threshold": 0.4283849736539929,
+      "improvement_threshold": 0.6480323975463451,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.509490291005932,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.06329178961803508,
+          0.056321886056045475,
+          0.025992392599237732,
+          0.04905298890882194
+        ],
+        "c_plus": [
+          0.023510904624118055,
+          0.14247644390997,
+          0.11279508684139088,
+          0.13507443315097506
+        ],
+        "w_minus": [
+          0.1,
+          0.32528754422418193,
+          0.20396957039695093,
+          0.2962119556352878
+        ],
+        "w_plus": [
+          0.36755452312059034,
+          0.96238221954985,
+          0.8139754342069544,
+          0.9253721657548754
+        ],
+        "f_minus": 0.06838497365399293,
+        "f_plus": 0.28803239754634513,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "c_hat": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "c_minus": [
+          0.07118434716821917,
+          0.07231150017368847,
+          -0.0016911812184154246,
+          0.07074083394793108
+        ],
+        "c_plus": [
+          0.15798704141037231,
+          0.158466058027613,
+          0.08511151302373773,
+          0.1567622781900842
+        ],
+        "w_minus": [
+          0.38473738867287666,
+          0.3892460006947539,
+          0.1,
+          0.38296333579172437
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          0.6755575651186887,
+          1.0
+        ],
+        "f_minus": 0.13778049182577207,
+        "f_plus": 0.5121632166471675,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.06838497365399293,
+            0.28803239754634513
+          ],
+          "width": 0.2196474238923522,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.0744491382593894,
+            "clearance_discretization_and_rounding": 0.0015281177489986641,
+            "relative_geometry": 0.12246959236953231,
+            "direction": 0.02119857551443186,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.13778049182577207,
+            0.5121632166471675
+          ],
+          "width": 0.3743827248213954,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.13593526472391498,
+            "clearance_discretization_and_rounding": 0.009983017577613607,
+            "relative_geometry": 0.20247418129985428,
+            "direction": 0.02598826122001252,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    },
+    "incremental_diffraction_gain": {
+      "theorem_outcome": "inconclusive",
+      "LB": 0.27197927398355715,
+      "UB": 0.5237733142428052,
+      "exclusion_threshold": 0.053549645953083966,
+      "improvement_threshold": 0.40342539448142145,
+      "split_count": 32,
+      "evaluation_count": 67,
+      "stop_reason": "split limit",
+      "search_elapsed_s": 4.518761625047773,
+      "reference": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "c_hat": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "c_minus": [
+          -0.06329178961803508,
+          0.056321886056045475,
+          0.025992392599237732,
+          0.04905298890882194
+        ],
+        "c_plus": [
+          0.023510904624118055,
+          0.14247644390997,
+          0.11279508684139088,
+          0.13507443315097506
+        ],
+        "w_minus": [
+          0.029057325076014988,
+          0.7030205508205509,
+          0.21761130249649033,
+          0.6268070214752387
+        ],
+        "w_plus": [
+          0.5937174506018449,
+          1.0,
+          0.7331862248894223,
+          1.0
+        ],
+        "f_minus": 0.03354964595308397,
+        "f_plus": 0.38342539448142143,
+        "phase": "reference"
+      },
+      "selected": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "c_hat": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "c_minus": [
+          0.07118434716821917,
+          0.07231150017368847,
+          -0.0016911812184154246,
+          0.07074083394793108
+        ],
+        "c_plus": [
+          0.15798704141037231,
+          0.158466058027613,
+          0.08511151302373773,
+          0.1567622781900842
+        ],
+        "w_minus": [
+          0.8589556762069388,
+          0.9073476889206322,
+          0.12547005798366404,
+          0.8944759437043703
+        ],
+        "w_plus": [
+          1.0,
+          1.0,
+          0.7331862248894223,
+          1.0
+        ],
+        "f_minus": 0.27197927398355715,
+        "f_plus": 0.5237733142428052,
+        "phase": "candidate"
+      },
+      "point_widths": {
+        "q0": {
+          "index_interval": [
+            0.03354964595308397,
+            0.38342539448142143
+          ],
+          "width": 0.34987574852833747,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.04978103967735949,
+            "clearance_discretization_and_rounding": 0.0125596064744741,
+            "relative_geometry": 0.26136565010128093,
+            "direction": 0.02616745227522295,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        },
+        "qb": {
+          "index_interval": [
+            0.27197927398355715,
+            0.5237733142428052
+          ],
+          "width": 0.251794040259248,
+          "decomposition": {
+            "calibration_at_grid_clearance": 0.11568894764812665,
+            "clearance_discretization_and_rounding": 0.007696663234357026,
+            "relative_geometry": 0.09397639709659611,
+            "direction": 0.03443003228016825,
+            "eigenvalue_budget": 2e-06
+          },
+          "interpretation": "exact algebraic decomposition of computed interval; calibration term uses grid clearance, not Gamma_infinity"
+        }
+      }
+    }
+  },
+  "width_terms": {
+    "first_gain": {
+      "Gamma_interval": [
+        0.06857260624587624,
+        0.06857260624587624
+      ],
+      "assumed_budget": {
+        "relative_geometry": 0.464,
+        "discretization_and_distance_budget": 0.9562025000000001,
+        "direction": 0.03136153535353535,
+        "eigenvalue_budget": 4e-06
+      },
+      "held_nominal_budget": {
+        "relative_geometry": 31.811896280680994,
+        "discretization_and_distance_budget": 0.9562025000000001,
+        "direction": 0.10301683373004064,
+        "eigenvalue_budget": 4e-06
+      },
+      "interpretation": "Partition-independent additive upper-bound terms of Eq. (12); their size is not a lower bound on the actual interval width."
+    },
+    "restricted_gain": {
+      "Gamma_interval": [
+        0.0,
+        0.30165829475027106
+      ],
+      "assumed_budget": {
+        "relative_geometry": 0.07200000000000001,
+        "discretization_and_distance_budget": 0.1425430225059423,
+        "direction": 0.03200747353774923,
+        "eigenvalue_budget": 4e-06
+      },
+      "held_nominal_budget": {
+        "relative_geometry": 4.93632873320912,
+        "discretization_and_distance_budget": 0.1425430225059423,
+        "direction": 0.10667738009776749,
+        "eigenvalue_budget": 4e-06
+      },
+      "interpretation": "Partition-independent additive upper-bound terms of Eq. (12); their size is not a lower bound on the actual interval width."
+    }
+  },
+  "scope": "Nominal base-motion sensitivity using held-target samples only. Joint target errors are reported but not incorporated. No bound on unobserved postures, trajectories, disturbances or hardware.",
+  "held_incremental_motion": {
+    "relative_geometry_m": 0.04124290962107657,
+    "range_vector_m": 0.006463068078728562
+  },
+  "middle_margin_obstruction": {
+    "S_minus": 0.6171534562128889,
+    "S_plus": 0.6857260624587651,
+    "improvement_threshold": 0.6672285704321208,
+    "exclusion_threshold": 0.3893235727272727,
+    "improvement_test_impossible": true,
+    "exclusion_test_impossible": true,
+    "justification": "Both nominal envelope maxima attain their common caps at the endpoint; matrix monotonicity bounds all postures."
+  },
+  "held_nominal_obstruction": {
+    "S_minus_upper": 0.4909046243598615,
+    "box_upper_floor_from_saturated_qb": 0.5987861615598413,
+    "improvement_threshold_at_002": 0.5662275602570404,
+    "exclusion_threshold_at_036": 0.4092099781462074,
+    "reason": "Lower weights never exceed their common cap. Even a continuous-clearance lower bracket at qb plus the held geometric budget saturates all upper envelopes; every box covering qb has an upper bound at least the saturated eigenvalue plus direction corrections (allowing two eigenvalue budgets)."
+  },
+  "source_dynamics": "poc/results/reviewer/dynamics_static/result.json"
+}

@@ -1,0 +1,843 @@
+{
+  "certification_status": "conditional PoC; unverified float64 arithmetic",
+  "beta": 0,
+  "epsilon_g": 0.02,
+  "epsilon_o": 0.01,
+  "reference": {
+    "q": [
+      -0.6,
+      1.0
+    ],
+    "c_hat": [
+      -0.017742004996958518,
+      0.10122353428889341,
+      0.0715421772203143,
+      0.0938215235298985
+    ],
+    "c_minus": [
+      -0.024048879996958518,
+      0.09556479567712205,
+      0.0652353022203143,
+      0.08829589852989851
+    ],
+    "c_plus": [
+      -0.015732004996958517,
+      0.10323353428889341,
+      0.0735521772203143,
+      0.0958315235298985
+    ],
+    "w_minus": [
+      0.1,
+      0.4822591827084882,
+      0.36094120888125725,
+      0.4531835941195941
+    ],
+    "w_plus": [
+      0.2,
+      0.7661676714444671,
+      0.6177608861015715,
+      0.7291576176494925
+    ],
+    "f_minus": 0.08369200580243635,
+    "f_plus": 0.17642930634183965,
+    "phase": "reference"
+  },
+  "exclusion_threshold": 0.10369200580243636,
+  "improvement_threshold": 0.19642930634183964,
+  "theorem_outcome": "guaranteed improvement",
+  "stop_reason": "decision inequality",
+  "selected": {
+    "q": [
+      -0.3,
+      1.45
+    ],
+    "c_hat": [
+      0.11673413178929574,
+      0.1172131484065364,
+      0.04385860340266115,
+      0.11550936856900765
+    ],
+    "c_minus": [
+      0.11042725678929574,
+      0.11155440979476504,
+      0.03755172840266115,
+      0.10998374356900766
+    ],
+    "c_plus": [
+      0.11874413178929574,
+      0.1192231484065364,
+      0.045868603402661155,
+      0.11751936856900765
+    ],
+    "w_minus": [
+      0.5417090271571829,
+      0.5462176391790602,
+      0.2502069136106446,
+      0.5399349742760307
+    ],
+    "w_plus": [
+      0.8437206589464787,
+      0.846115742032682,
+      0.47934301701330584,
+      0.8375968428450382
+    ],
+    "f_minus": 0.23148750305790594,
+    "f_plus": 0.4075387145380347,
+    "phase": "candidate"
+  },
+  "LB": 0.23148750305790594,
+  "UB": 0.5614532082798321,
+  "guaranteed_gain_lower": 0.05505819671606629,
+  "history": [
+    {
+      "splits": 0,
+      "LB": 0.23148750305790594,
+      "UB": 0.5614532082798321,
+      "active_boxes": 1,
+      "evaluations": 3,
+      "elapsed_s": 0.18888279201928526
+    }
+  ],
+  "evaluations": [
+    {
+      "q": [
+        -0.6,
+        1.0
+      ],
+      "c_hat": [
+        -0.017742004996958518,
+        0.10122353428889341,
+        0.0715421772203143,
+        0.0938215235298985
+      ],
+      "c_minus": [
+        -0.024048879996958518,
+        0.09556479567712205,
+        0.0652353022203143,
+        0.08829589852989851
+      ],
+      "c_plus": [
+        -0.015732004996958517,
+        0.10323353428889341,
+        0.0735521772203143,
+        0.0958315235298985
+      ],
+      "w_minus": [
+        0.1,
+        0.4822591827084882,
+        0.36094120888125725,
+        0.4531835941195941
+      ],
+      "w_plus": [
+        0.2,
+        0.7661676714444671,
+        0.6177608861015715,
+        0.7291576176494925
+      ],
+      "f_minus": 0.08369200580243635,
+      "f_plus": 0.17642930634183965,
+      "phase": "reference"
+    },
+    {
+      "q": [
+        -0.3,
+        1.45
+      ],
+      "c_hat": [
+        0.11673413178929574,
+        0.1172131484065364,
+        0.04385860340266115,
+        0.11550936856900765
+      ],
+      "c_minus": [
+        0.11042725678929574,
+        0.11155440979476504,
+        0.03755172840266115,
+        0.10998374356900766
+      ],
+      "c_plus": [
+        0.11874413178929574,
+        0.1192231484065364,
+        0.045868603402661155,
+        0.11751936856900765
+      ],
+      "w_minus": [
+        0.5417090271571829,
+        0.5462176391790602,
+        0.2502069136106446,
+        0.5399349742760307
+      ],
+      "w_plus": [
+        0.8437206589464787,
+        0.846115742032682,
+        0.47934301701330584,
+        0.8375968428450382
+      ],
+      "f_minus": 0.23148750305790594,
+      "f_plus": 0.4075387145380347,
+      "phase": "candidate"
+    },
+    {
+      "q": [
+        -0.44999999999999996,
+        1.225
+      ],
+      "c_hat": [
+        0.06635641392327854,
+        0.1065955820143481,
+        0.057360413876714506,
+        0.10267192502650425
+      ],
+      "c_minus": [
+        0.06004953892327854,
+        0.10093684340257673,
+        0.0510535388767145,
+        0.09714630002650426
+      ],
+      "c_plus": [
+        0.06836641392327854,
+        0.1086055820143481,
+        0.05937041387671451,
+        0.10468192502650425
+      ],
+      "w_minus": [
+        0.3401981556931142,
+        0.503747373610307,
+        0.30421415550685804,
+        0.488585200106017
+      ],
+      "w_plus": [
+        0.5918320696163928,
+        0.7930279100717406,
+        0.5468520693835726,
+        0.7734096251325213
+      ],
+      "f_minus": 0.1830586077720081,
+      "f_plus": 0.3405847100852251,
+      "phase": "candidate"
+    }
+  ],
+  "pruned_boxes": [],
+  "remaining_boxes": [
+    {
+      "lo": [
+        -0.6,
+        1.0
+      ],
+      "hi": [
+        -0.3,
+        1.45
+      ],
+      "upper": 0.5614532082798321,
+      "raw_upper": 0.5614532082798321,
+      "parent_upper": null,
+      "center": {
+        "q": [
+          -0.44999999999999996,
+          1.225
+        ],
+        "c_hat": [
+          0.06635641392327854,
+          0.1065955820143481,
+          0.057360413876714506,
+          0.10267192502650425
+        ],
+        "c_minus": [
+          0.06004953892327854,
+          0.10093684340257673,
+          0.0510535388767145,
+          0.09714630002650426
+        ],
+        "c_plus": [
+          0.06836641392327854,
+          0.1086055820143481,
+          0.05937041387671451,
+          0.10468192502650425
+        ],
+        "w_minus": [
+          0.3401981556931142,
+          0.503747373610307,
+          0.30421415550685804,
+          0.488585200106017
+        ],
+        "w_plus": [
+          0.5918320696163928,
+          0.7930279100717406,
+          0.5468520693835726,
+          0.7734096251325213
+        ],
+        "f_minus": 0.1830586077720081,
+        "f_plus": 0.3405847100852251,
+        "phase": "candidate"
+      }
+    }
+  ],
+  "root_upper": 0.5614532082798321,
+  "evaluation_count": 3,
+  "cache_hits": 2,
+  "split_count": 0,
+  "search_elapsed_s": 0.1889465420972556,
+  "phase_seconds": {
+    "reference": 0.06681391701567918,
+    "candidates": 0.12195837497711182,
+    "branch_and_bound": 0.00010324991308152676
+  },
+  "config": {
+    "joints": [
+      "left_shoulder_pitch_joint",
+      "left_elbow_joint"
+    ],
+    "Q_lower": [
+      -0.6,
+      1.0
+    ],
+    "Q_upper": [
+      -0.3,
+      1.45
+    ],
+    "q0": [
+      -0.6,
+      1.0
+    ],
+    "base_position_m": [
+      0.0,
+      0.0,
+      0.793
+    ],
+    "tag_offset_m": [
+      0.15,
+      0.0,
+      0.05
+    ],
+    "anchor_offsets_m": [
+      [
+        1.8,
+        1.2,
+        -0.4
+      ],
+      [
+        1.8,
+        -0.3,
+        -0.4
+      ],
+      [
+        -1.8,
+        1.2,
+        -0.4
+      ],
+      [
+        0.0,
+        0.0,
+        1.8
+      ]
+    ],
+    "budget": {
+      "N": 256,
+      "e_phi": 1e-05,
+      "e_lambda": 1e-06,
+      "relative_geometry_m": 0.002,
+      "range_vector_m": 0.004,
+      "direction_offset": 0.001
+    },
+    "envelope": {
+      "lower_floor": 0.1,
+      "lower_cap": 0.9,
+      "lower_slope": 4.0,
+      "lower_offset": 0.0,
+      "upper_floor": 0.2,
+      "upper_cap": 1.0,
+      "upper_slope": 5.0,
+      "upper_offset": 0.15
+    },
+    "epsilon_g": 0.02,
+    "epsilon_o": 0.01,
+    "max_splits": 4096,
+    "candidate_count": 0,
+    "seed": 20261009,
+    "map_grid": 35,
+    "max_seconds": 600
+  },
+  "geometry": {
+    "p_m": [
+      0.14603649999999999,
+      0.0,
+      0.8870000000000001
+    ],
+    "anchors_m": [
+      [
+        1.9460365,
+        1.2,
+        0.4870000000000001
+      ],
+      [
+        1.9460365,
+        -0.3,
+        0.4870000000000001
+      ],
+      [
+        -1.6539635000000001,
+        1.2,
+        0.4870000000000001
+      ],
+      [
+        0.14603649999999999,
+        0.0,
+        2.6870000000000003
+      ]
+    ],
+    "d_m": [
+      2.2,
+      1.8681541692269406,
+      2.2,
+      1.8000000000000003
+    ],
+    "h": [
+      [
+        -0.8181818181818181,
+        -0.5454545454545454,
+        0.18181818181818182
+      ],
+      [
+        -0.9635179096299405,
+        0.16058631827165676,
+        0.2141150910288757
+      ],
+      [
+        0.8181818181818181,
+        -0.5454545454545454,
+        0.18181818181818182
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "sigma": [
+      0.003819181818181818,
+      0.0041421509102887565,
+      0.003819181818181818,
+      0.004223222222222222
+    ],
+    "f_cap": 0.5614532082798321,
+    "Lq_m_per_rad": [
+      3.8195901425573546,
+      3.3780848366755474,
+      3.471713609538846,
+      3.169489271764603
+    ],
+    "joint_reach_m": {
+      "left_shoulder_pitch_joint": 0.2673099869247126,
+      "left_elbow_joint": 0.4931875642334949
+    },
+    "moving_geom_ids": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54
+    ],
+    "moving_bodies": [
+      "left_shoulder_pitch_link",
+      "left_shoulder_roll_link",
+      "left_shoulder_yaw_link",
+      "left_elbow_link",
+      "left_wrist_roll_link",
+      "left_wrist_pitch_link",
+      "left_wrist_yaw_link"
+    ]
+  },
+  "assumptions": {
+    "Q": "kinematic fixture box only; balance/self-collision not asserted",
+    "envelopes": "synthetic; not radio calibration",
+    "errors": "supplied synthetic budgets; e_phi includes FK/SDF but is not verified",
+    "Lq": "analytic chain-length bound in real arithmetic",
+    "geometry": "MuJoCo convex collision hulls and cylinders; not anatomical/radio geometry"
+  },
+  "provenance": {
+    "python": "3.12.10",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "mujoco": "3.2.6",
+    "matplotlib": "3.9.2",
+    "model_manifest": {
+      "files": [
+        {
+          "bytes": 23446,
+          "path": "g1.xml",
+          "sha256": "3c2616550a31f33e84d3c80b8e913ac5618c8888019b0c9490dae93493e647f3",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/g1.xml"
+        },
+        {
+          "bytes": 932784,
+          "path": "assets/head_link.STL",
+          "sha256": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/head_link.STL"
+        },
+        {
+          "bytes": 71184,
+          "path": "assets/left_ankle_pitch_link.STL",
+          "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_ankle_pitch_link.STL"
+        },
+        {
+          "bytes": 653384,
+          "path": "assets/left_ankle_roll_link.STL",
+          "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_ankle_roll_link.STL"
+        },
+        {
+          "bytes": 88784,
+          "path": "assets/left_elbow_link.STL",
+          "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_elbow_link.STL"
+        },
+        {
+          "bytes": 181684,
+          "path": "assets/left_hip_pitch_link.STL",
+          "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_hip_pitch_link.STL"
+        },
+        {
+          "bytes": 192184,
+          "path": "assets/left_hip_roll_link.STL",
+          "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_hip_roll_link.STL"
+        },
+        {
+          "bytes": 296284,
+          "path": "assets/left_hip_yaw_link.STL",
+          "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_hip_yaw_link.STL"
+        },
+        {
+          "bytes": 854884,
+          "path": "assets/left_knee_link.STL",
+          "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_knee_link.STL"
+        },
+        {
+          "bytes": 2287484,
+          "path": "assets/left_rubber_hand.STL",
+          "sha256": "cff2221a690fa69303f61fce68f2d155c1517b52efb6ca9262dd56e0bc6e70fe",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_rubber_hand.STL"
+        },
+        {
+          "bytes": 176784,
+          "path": "assets/left_shoulder_pitch_link.STL",
+          "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_shoulder_pitch_link.STL"
+        },
+        {
+          "bytes": 400284,
+          "path": "assets/left_shoulder_roll_link.STL",
+          "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_shoulder_roll_link.STL"
+        },
+        {
+          "bytes": 249184,
+          "path": "assets/left_shoulder_yaw_link.STL",
+          "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_shoulder_yaw_link.STL"
+        },
+        {
+          "bytes": 85984,
+          "path": "assets/left_wrist_pitch_link.STL",
+          "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_wrist_pitch_link.STL"
+        },
+        {
+          "bytes": 356184,
+          "path": "assets/left_wrist_roll_link.STL",
+          "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_wrist_roll_link.STL"
+        },
+        {
+          "bytes": 318684,
+          "path": "assets/left_wrist_yaw_link.STL",
+          "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/left_wrist_yaw_link.STL"
+        },
+        {
+          "bytes": 243384,
+          "path": "assets/logo_link.STL",
+          "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/logo_link.STL"
+        },
+        {
+          "bytes": 1060884,
+          "path": "assets/pelvis.STL",
+          "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/pelvis.STL"
+        },
+        {
+          "bytes": 1805184,
+          "path": "assets/pelvis_contour_link.STL",
+          "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/pelvis_contour_link.STL"
+        },
+        {
+          "bytes": 71184,
+          "path": "assets/right_ankle_pitch_link.STL",
+          "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_ankle_pitch_link.STL"
+        },
+        {
+          "bytes": 653784,
+          "path": "assets/right_ankle_roll_link.STL",
+          "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_ankle_roll_link.STL"
+        },
+        {
+          "bytes": 88784,
+          "path": "assets/right_elbow_link.STL",
+          "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_elbow_link.STL"
+        },
+        {
+          "bytes": 181284,
+          "path": "assets/right_hip_pitch_link.STL",
+          "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_hip_pitch_link.STL"
+        },
+        {
+          "bytes": 192684,
+          "path": "assets/right_hip_roll_link.STL",
+          "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_hip_roll_link.STL"
+        },
+        {
+          "bytes": 296284,
+          "path": "assets/right_hip_yaw_link.STL",
+          "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_hip_yaw_link.STL"
+        },
+        {
+          "bytes": 852284,
+          "path": "assets/right_knee_link.STL",
+          "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_knee_link.STL"
+        },
+        {
+          "bytes": 2192684,
+          "path": "assets/right_rubber_hand.STL",
+          "sha256": "99533b778bca6246144fa511bb9d4e555e075c641f2a0251e04372869cd99d67",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_rubber_hand.STL"
+        },
+        {
+          "bytes": 176784,
+          "path": "assets/right_shoulder_pitch_link.STL",
+          "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_shoulder_pitch_link.STL"
+        },
+        {
+          "bytes": 401884,
+          "path": "assets/right_shoulder_roll_link.STL",
+          "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_shoulder_roll_link.STL"
+        },
+        {
+          "bytes": 249984,
+          "path": "assets/right_shoulder_yaw_link.STL",
+          "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_shoulder_yaw_link.STL"
+        },
+        {
+          "bytes": 79584,
+          "path": "assets/right_wrist_pitch_link.STL",
+          "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_wrist_pitch_link.STL"
+        },
+        {
+          "bytes": 356084,
+          "path": "assets/right_wrist_roll_link.STL",
+          "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_wrist_roll_link.STL"
+        },
+        {
+          "bytes": 341484,
+          "path": "assets/right_wrist_yaw_link.STL",
+          "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/right_wrist_yaw_link.STL"
+        },
+        {
+          "bytes": 2570584,
+          "path": "assets/torso_link_rev_1_0.STL",
+          "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/torso_link_rev_1_0.STL"
+        },
+        {
+          "bytes": 85884,
+          "path": "assets/waist_roll_link_rev_1_0.STL",
+          "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/waist_roll_link_rev_1_0.STL"
+        },
+        {
+          "bytes": 619984,
+          "path": "assets/waist_yaw_link_rev_1_0.STL",
+          "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/assets/waist_yaw_link_rev_1_0.STL"
+        },
+        {
+          "bytes": 1537,
+          "path": "MODEL_LICENSE",
+          "sha256": "98335465f43a20b5850e4651db6e74c4aa1e9fc8e8813d38f345178045c0da50",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/LICENSE"
+        },
+        {
+          "bytes": 2202,
+          "path": "README.md",
+          "sha256": "e0ca5e85f68ff9554631c3ea6ac624b469d6018a37e273daa1234e43e3ad4395",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/unitree_g1/README.md"
+        },
+        {
+          "bytes": 410072,
+          "path": "REPOSITORY_LICENSE",
+          "sha256": "d213a10eac9efe085d088824559cf30f34733fee1b232cefbd1952b99fcfdd78",
+          "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/71f066ad0be9cd271f7ed58c030243ef157af9f4/LICENSE"
+        }
+      ],
+      "manifest_schema": 1,
+      "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+      "requested_revision": "71f066ad0be9cd271f7ed58c030243ef157af9f4"
+    },
+    "model_verified": {
+      "verified": true,
+      "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+      "requested_revision": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+      "manifest_schema": 1,
+      "manifest_sha256": "dace6c63ffe49e489db4b9479b451d0805078ccac39bd9e7c6d0d6fec1d0aca4",
+      "g1_xml_sha256": "3c2616550a31f33e84d3c80b8e913ac5618c8888019b0c9490dae93493e647f3",
+      "model_license_sha256": "98335465f43a20b5850e4651db6e74c4aa1e9fc8e8813d38f345178045c0da50",
+      "file_count": 39,
+      "all_manifest_files_verified": true
+    },
+    "source_sha256": {
+      "run.py": "7b1d4733224b7c9597d540e3214e96b40cb4405a73e0eec579bcdd27b79ebdd9",
+      "g1_geometry.py": "4ae1c7e55c106a100b8f8781bd64822b5184b2f65b200b699680f3326ba81364",
+      "test_poc.py": "260f224fd5b3cfaaef3545ab8fa5763851df5bedba70552eb2b25131043cf83f",
+      "bounds.py": "8c2a0dd6447046ddbcbc44ddc80c76e9a9dfe64685bff1e2b453975cd4c05abb",
+      "check_result.py": "b711ff2948f91c430c7c116103c8078684ccd583160bc36b875661f0d25583ef",
+      "paper_example.py": "d31f1f935a520d36095b05171f7ebef911b84f0ee11dadd943af0ffe3b5d1366"
+    }
+  },
+  "hardware": {
+    "cpu": "Apple M1",
+    "model": "MacBookPro17,1",
+    "physical_cores": 8,
+    "logical_cores": 8,
+    "memory_GiB": 16,
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "note": "Measured on experiment host with sysctl; update this metadata on another machine."
+  },
+  "saturation_width": {
+    "mu_min": 0.5454484715109571,
+    "calibration": 0.0545448471510957,
+    "corrections": 0.030409099860861766,
+    "applies_to_saturated_easy_example": false
+  },
+  "cover_weight_upper_max": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "cover_excludes_simultaneous_upper_saturation": false,
+  "witnesses": {
+    "reference": [
+      {
+        "geom_id": 54,
+        "node": 23,
+        "s": 0.08984375,
+        "point_m": [
+          0.30775525,
+          0.10781249999999999,
+          0.8510625000000002
+        ],
+        "signed_distance_m": -0.017742004996958518
+      },
+      {
+        "geom_id": 48,
+        "node": 0,
+        "s": 0.0,
+        "point_m": [
+          0.14603649999999999,
+          0.0,
+          0.8870000000000001
+        ],
+        "signed_distance_m": 0.10122353428889341
+      },
+      {
+        "geom_id": 46,
+        "node": 10,
+        "s": 0.0390625,
+        "point_m": [
+          0.07572399999999999,
+          0.046875,
+          0.8713750000000001
+        ],
+        "signed_distance_m": 0.0715421772203143
+      },
+      {
+        "geom_id": 46,
+        "node": 8,
+        "s": 0.03125,
+        "point_m": [
+          0.14603649999999999,
+          0.0,
+          0.9432500000000001
+        ],
+        "signed_distance_m": 0.0938215235298985
+      }
+    ],
+    "selected": [
+      {
+        "geom_id": 46,
+        "node": 1,
+        "s": 0.00390625,
+        "point_m": [
+          0.15306774999999997,
+          0.0046875,
+          0.8854375000000001
+        ],
+        "signed_distance_m": 0.11673413178929574
+      },
+      {
+        "geom_id": 46,
+        "node": 0,
+        "s": 0.0,
+        "point_m": [
+          0.14603649999999999,
+          0.0,
+          0.8870000000000001
+        ],
+        "signed_distance_m": 0.1172131484065364
+      },
+      {
+        "geom_id": 46,
+        "node": 15,
+        "s": 0.05859375,
+        "point_m": [
+          0.040567749999999986,
+          0.0703125,
+          0.8635625000000001
+        ],
+        "signed_distance_m": 0.04385860340266115
+      },
+      {
+        "geom_id": 46,
+        "node": 3,
+        "s": 0.01171875,
+        "point_m": [
+          0.14603649999999999,
+          0.0,
+          0.9080937500000001
+        ],
+        "signed_distance_m": 0.11550936856900765
+      }
+    ]
+  },
+  "total_elapsed_s": 228.75747329194564
+}

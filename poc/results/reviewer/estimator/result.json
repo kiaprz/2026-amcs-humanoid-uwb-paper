@@ -1,0 +1,281 @@
+{
+  "reference_range_standard_deviation_m": 0.03,
+  "lambda_ref_per_observation_m_minus2": 1111.111111111111,
+  "replicates": 20000,
+  "seed": 124,
+  "linear_WLS": [
+    {
+      "posture": "q0",
+      "q": [
+        -0.6,
+        1.0
+      ],
+      "linear_Gaussian_CRLB_trace_m2": 0.009192136215010248,
+      "WLS_empirical_MSE_m2": 0.00926537158541003,
+      "covariance_relative_frobenius_error": 0.014052064967795319,
+      "replicates": 20000,
+      "scope": "known weights, unbiased exactly linear Gaussian observation model; not nonlinear NLOS ranging",
+      "analytic_MC_standard_error_m2": 7.165112564822029e-05,
+      "empirical_minus_CRLB_in_standard_errors": 1.0221105354204678
+    },
+    {
+      "posture": "qb",
+      "q": [
+        -0.3,
+        1.45
+      ],
+      "linear_Gaussian_CRLB_trace_m2": 0.004678570890976682,
+      "WLS_empirical_MSE_m2": 0.004677824162639451,
+      "covariance_relative_frobenius_error": 0.008269392156391183,
+      "replicates": 20000,
+      "scope": "known weights, unbiased exactly linear Gaussian observation model; not nonlinear NLOS ranging",
+      "analytic_MC_standard_error_m2": 3.127893495397961e-05,
+      "empirical_minus_CRLB_in_standard_errors": -0.023873202151214922
+    }
+  ],
+  "nonlinear_GN": {
+    "correct": {
+      "q0": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "clearance_grid_m": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "weights": [
+          0.15000000000000002,
+          0.6305059043000203,
+          0.49693979749141437,
+          0.5971968558845433
+        ],
+        "bias_m": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "oracle_f_normalized": 0.12892965675227258,
+        "oracle_CRLB_trace_m2": 0.00919213621501025,
+        "solver": {
+          "iterations": 57,
+          "nonconverged": 0,
+          "maximum_last_step_m": 8.91304846755274e-11,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.0095720876735828,
+        "Monte_Carlo_standard_error_m2": 8.497636925652872e-05,
+        "approximate_95_MC_interval_m2": [
+          0.009405533989840004,
+          0.009738641357325597
+        ]
+      },
+      "qb": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "clearance_grid_m": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "weights": [
+          0.7003035930518309,
+          0.7024591678294139,
+          0.3723637153119752,
+          0.6947921585605344
+        ],
+        "bias_m": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "oracle_f_normalized": 0.3219060125611347,
+        "oracle_CRLB_trace_m2": 0.004678570890976681,
+        "solver": {
+          "iterations": 13,
+          "nonconverged": 0,
+          "maximum_last_step_m": 5.107172798342541e-11,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.0046858856133985115,
+        "Monte_Carlo_standard_error_m2": 3.137520881388898e-05,
+        "approximate_95_MC_interval_m2": [
+          0.004624390204123289,
+          0.004747381022673734
+        ]
+      },
+      "MSE_order": "qb_better",
+      "oracle_information_order": "qb_better"
+    },
+    "mild_mismatch": {
+      "q0": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "clearance_grid_m": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "weights": [
+          0.15000000000000002,
+          0.6305059043000203,
+          0.49693979749141437,
+          0.5971968558845433
+        ],
+        "bias_m": [
+          0.03,
+          0.0,
+          0.008457822779685695,
+          0.0
+        ],
+        "oracle_f_normalized": 0.12892965675227258,
+        "oracle_CRLB_trace_m2": 0.00919213621501025,
+        "solver": {
+          "iterations": 51,
+          "nonconverged": 0,
+          "maximum_last_step_m": 8.244101288407738e-11,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.00962171415166991,
+        "Monte_Carlo_standard_error_m2": 7.373249097337057e-05,
+        "approximate_95_MC_interval_m2": [
+          0.009477198469362102,
+          0.009766229833977716
+        ]
+      },
+      "qb": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "clearance_grid_m": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "weights": [
+          0.7003035930518309,
+          0.7024591678294139,
+          0.3723637153119752,
+          0.6947921585605344
+        ],
+        "bias_m": [
+          0.0,
+          0.0,
+          0.03614139659733885,
+          0.0
+        ],
+        "oracle_f_normalized": 0.3219060125611347,
+        "oracle_CRLB_trace_m2": 0.004678570890976681,
+        "solver": {
+          "iterations": 13,
+          "nonconverged": 0,
+          "maximum_last_step_m": 4.152826908187505e-11,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.005295763176502316,
+        "Monte_Carlo_standard_error_m2": 3.485979682101202e-05,
+        "approximate_95_MC_interval_m2": [
+          0.0052274379747331325,
+          0.005364088378271499
+        ]
+      },
+      "MSE_order": "qb_better",
+      "oracle_information_order": "qb_better"
+    },
+    "strong_mismatch": {
+      "q0": {
+        "q": [
+          -0.6,
+          1.0
+        ],
+        "clearance_grid_m": [
+          -0.017742004996958518,
+          0.10122353428889341,
+          0.0715421772203143,
+          0.0938215235298985
+        ],
+        "weights": [
+          0.15000000000000002,
+          0.6305059043000203,
+          0.49693979749141437,
+          0.5971968558845433
+        ],
+        "bias_m": [
+          0.03,
+          0.0,
+          0.05286139237303559,
+          0.0
+        ],
+        "oracle_f_normalized": 0.12892965675227258,
+        "oracle_CRLB_trace_m2": 0.00919213621501025,
+        "solver": {
+          "iterations": 100,
+          "nonconverged": 1,
+          "maximum_last_step_m": 2.8693869552802735e-08,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.014887773409590724,
+        "Monte_Carlo_standard_error_m2": 0.00010105198648397863,
+        "approximate_95_MC_interval_m2": [
+          0.014689711516082126,
+          0.015085835303099322
+        ]
+      },
+      "qb": {
+        "q": [
+          -0.3,
+          1.45
+        ],
+        "clearance_grid_m": [
+          0.11673413178929574,
+          0.1172131484065364,
+          0.04385860340266115,
+          0.11550936856900765
+        ],
+        "weights": [
+          0.7003035930518309,
+          0.7024591678294139,
+          0.3723637153119752,
+          0.6947921585605344
+        ],
+        "bias_m": [
+          0.0,
+          0.0,
+          0.22588372873336782,
+          0.0
+        ],
+        "oracle_f_normalized": 0.3219060125611347,
+        "oracle_CRLB_trace_m2": 0.004678570890976681,
+        "solver": {
+          "iterations": 16,
+          "nonconverged": 0,
+          "maximum_last_step_m": 2.7831644917339927e-11,
+          "line_search": "objective-decreasing backtracking, up to 16 halvings"
+        },
+        "MSE_m2": 0.02983212231174989,
+        "Monte_Carlo_standard_error_m2": 0.00011630738615823684,
+        "approximate_95_MC_interval_m2": [
+          0.029604159834879743,
+          0.030060084788620035
+        ]
+      },
+      "MSE_order": "q0_better",
+      "oracle_information_order": "qb_better"
+    }
+  },
+  "bias_rule": "b_i(q)=cap_i*clip((0.08-c_i(q))/0.08,0,1), fixed while estimating position at each posture",
+  "oracle_scope": "Gaussian information with known variance and known/subtracted fixed bias; GN omits bias. Unknown unrestricted bias would need a different EFIM.",
+  "scope": "Synthetic model-mismatch demonstration; no hardware calibration or estimator-error certificate"
+}

@@ -1,0 +1,7 @@
+{
+  "arithmetic_replay": "PASS",
+  "theorem_outcome": "excluded improvement",
+  "leaf_count": 0,
+  "formal_certificate": false,
+  "reason": "Ceiling arithmetic only; supplied errors unverified"
+}

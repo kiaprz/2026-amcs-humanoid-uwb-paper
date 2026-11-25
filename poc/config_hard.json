@@ -1,0 +1,75 @@
+{
+  "joints": [
+    "left_shoulder_pitch_joint",
+    "left_elbow_joint"
+  ],
+  "Q_lower": [
+    -0.6,
+    1.0
+  ],
+  "Q_upper": [
+    -0.3,
+    1.45
+  ],
+  "q0": [
+    -0.6,
+    1.0
+  ],
+  "base_position_m": [
+    0.0,
+    0.0,
+    0.793
+  ],
+  "tag_offset_m": [
+    0.15,
+    0.0,
+    0.05
+  ],
+  "anchor_offsets_m": [
+    [
+      1.8,
+      1.2,
+      -0.4
+    ],
+    [
+      1.8,
+      -0.3,
+      -0.4
+    ],
+    [
+      -1.8,
+      1.2,
+      -0.4
+    ],
+    [
+      0.0,
+      0.0,
+      1.8
+    ]
+  ],
+  "budget": {
+    "N": 256,
+    "e_phi": 1e-05,
+    "e_lambda": 1e-06,
+    "relative_geometry_m": 0.002,
+    "range_vector_m": 0.004,
+    "direction_offset": 0.001
+  },
+  "envelope": {
+    "lower_floor": 0.1,
+    "lower_cap": 0.9,
+    "lower_slope": 4.0,
+    "lower_offset": 0.0,
+    "upper_floor": 0.2,
+    "upper_cap": 1.0,
+    "upper_slope": 5.0,
+    "upper_offset": 0.15
+  },
+  "epsilon_g": 0.02,
+  "epsilon_o": 0.01,
+  "max_splits": 4096,
+  "candidate_count": 0,
+  "seed": 20261009,
+  "map_grid": 35,
+  "max_seconds": 600
+}

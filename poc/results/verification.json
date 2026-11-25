@@ -1,0 +1,55 @@
+{
+  "tests_passed": 78,
+  "tests_failed": 0,
+  "test_log": "poc/results/all_tests.log",
+  "test_suites": [
+    "poc/test_poc.py",
+    "humanoid-uwb-sim/tests/test_anchors.py",
+    "humanoid-uwb-sim/tests/test_robot_and_gait.py",
+    "humanoid-uwb-sim/tests/test_sensor_and_estimators.py"
+  ],
+  "replays": {
+    "easy": {
+      "arithmetic_replay": "PASS",
+      "theorem_outcome": "guaranteed improvement",
+      "leaf_count": 1,
+      "formal_certificate": false,
+      "reason": "Supplied error budgets and SDF values not verified by replay"
+    },
+    "hard": {
+      "arithmetic_replay": "PASS",
+      "theorem_outcome": "guaranteed improvement",
+      "leaf_count": 1,
+      "formal_certificate": false,
+      "reason": "Supplied error budgets and SDF values not verified by replay"
+    },
+    "bnb": {
+      "arithmetic_replay": "PASS",
+      "theorem_outcome": "excluded improvement",
+      "leaf_count": 1779,
+      "formal_certificate": false,
+      "reason": "Supplied error budgets and SDF values not verified by replay"
+    },
+    "excluded": {
+      "arithmetic_replay": "PASS",
+      "theorem_outcome": "excluded improvement",
+      "leaf_count": 0,
+      "formal_certificate": false,
+      "reason": "Ceiling arithmetic only; supplied errors unverified"
+    },
+    "inconclusive": {
+      "arithmetic_replay": "PASS",
+      "theorem_outcome": "inconclusive",
+      "leaf_count": 9,
+      "formal_certificate": false,
+      "reason": "Supplied error budgets and SDF values not verified by replay"
+    }
+  },
+  "formal_certificate": false,
+  "arithmetic": "unverified float64",
+  "replay_source_sha256": "7564622efcce33a8132839c14dfece47cd2db5b9b3fc7c15d0dba1d05e2ff330",
+  "visualization_sources": {
+    "plot_clearance.py": "1679a09cf4a39552208c4de199cad5696cc4e9bdb3cb01f6d40e24b62516d0d2",
+    "plot_bnb.py": "45a201118e718561b66b034d9f46c483689c4893eb2c8589cfe66e91700513fc"
+  }
+}
